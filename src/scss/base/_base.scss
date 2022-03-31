@@ -1,0 +1,15 @@
+@import "src/scss/config/config";
+
+html {
+  @include font-regular;
+}
+
+body {
+  margin: 0
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 100px 70px;
+}

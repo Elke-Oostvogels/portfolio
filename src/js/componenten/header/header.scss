@@ -1,0 +1,32 @@
+@import "src/scss/config/config";
+
+.header {
+  box-sizing: border-box;
+  height: 90vh;
+  padding: 15%;
+
+  &_bg-color {
+
+    &_dark {
+      background-color: $base-darker;
+      -webkit-text-fill-color: $base-darker;
+      -webkit-text-stroke-color: $accent-light;
+    }
+
+    &_base-light {
+      background-color: $base-light;
+      -webkit-text-fill-color: $base-light;
+      -webkit-text-stroke-color: $accent-light;
+    }
+
+    &_accent-dark {
+      background-color: $accent-dark;
+      -webkit-text-fill-color: $accent-dark;
+      -webkit-text-stroke-color: $ligtest;
+    }
+  }
+
+  h1 {
+    text-align: center;
+  }
+}

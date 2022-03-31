@@ -1,0 +1,39 @@
+@import "src/scss/config/config";
+
+h1 {
+  @include font-bold;
+  margin: 0;
+  font-size: 224px;
+
+  -webkit-text-stroke-width: 3px;
+
+}
+
+h2 {
+  @include font-bold;
+  color: $base-darkest;
+  font-size: 56px;
+}
+
+h3 {
+  @include font-bold;
+  color: $base-darkest;
+  font-size: 28px;
+}
+
+h4 {
+  @include font-bold;
+  line-height: 12px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 0;
+  @include font-regular;
+  font-size: 14px;
+  line-height: 40px;
+  color: $base-darkest;
+
+
+
+}

@@ -1,0 +1,12 @@
+@import "src/scss/config/config";
+
+.wie{
+  &__content{
+    margin-left: 45px;
+  }
+}
+.light {
+
+  line-height: 30px;
+  @include font-light;
+}

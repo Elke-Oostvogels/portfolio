@@ -1,0 +1,28 @@
+@import "src/scss/config/config";
+
+.card {
+
+  margin: 35px auto;
+  background-color: $ligtest;
+  box-shadow: 0 20px 20px 0 rgba(121, 120, 129, 0.2);
+
+  &_lg {
+    box-sizing: border-box;
+    bottom: 15px;
+    text-align: center;
+    width: 450px;
+    height: 382px;
+    padding-top: 65%;
+  }
+
+  &_md {
+    width: 384px;
+    height: 218px;
+  }
+
+  &_sqr {
+    margin-top: -150px;
+    width: 550px;
+    height: 550px;
+  }
+}
