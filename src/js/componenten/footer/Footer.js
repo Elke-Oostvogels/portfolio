@@ -1,0 +1,28 @@
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import './footer.css';
+import At from '../../../../src/assets/icons/at.svg';
+import Linkedin from '../../../../src/assets/icons/linkedin.svg';
+import Instagram from '../../../../src/assets/icons/instagram.svg';
+
+export const Footer = () => {
+
+    return <div className={"basis-full footer"}>
+        <div className={"flex justify-center"}>
+            <a href={"mailto:info@eographic.be"} target={"_blank"}>
+                <img src={At}/>
+            </a>
+
+            <a target={"_blank"}>
+                <img src={Linkedin}/>
+            </a>
+
+            <a target={"_blank"}>
+                <img src={Instagram}/>
+            </a>
+
+        </div>
+        <div className={"flex justify-center"}>
+            &copy; Elke Oostvogels - 2022
+        </div>
+    </div>
+}

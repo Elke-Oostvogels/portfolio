@@ -2,31 +2,68 @@
 
 .header {
   box-sizing: border-box;
-  height: 90vh;
-  padding: 15%;
+  height: 50vh;
+
+
+  @media (min-width: $breakpoint--md) {
+    height: 90vh;
+  }
 
   &_bg-color {
-
     &_dark {
       background-color: $base-darker;
-      -webkit-text-fill-color: $base-darker;
-      -webkit-text-stroke-color: $accent-light;
+
+      .header__titel {
+        -webkit-text-fill-color: $base-darker;
+        -webkit-text-stroke-color: $accent-light;
+      }
+
+      h5 {
+        color: $accent-light;
+      }
+
+      h5:active, h5:hover {
+        color: $base-light;
+      }
     }
 
     &_base-light {
       background-color: $base-light;
-      -webkit-text-fill-color: $base-light;
-      -webkit-text-stroke-color: $accent-light;
+      .header__titel {
+        -webkit-text-fill-color: $base-light;
+        -webkit-text-stroke-color: $accent-light;
+      }
+
+      h5 {
+        color: $accent-light;
+      }
+
+      h5:active, h5:hover {
+        color: $base-darkest;
+
+      }
     }
 
     &_accent-dark {
       background-color: $accent-dark;
-      -webkit-text-fill-color: $accent-dark;
-      -webkit-text-stroke-color: $ligtest;
+
+      .header__titel {
+        -webkit-text-fill-color: $accent-dark;
+        -webkit-text-stroke-color: $ligtest;
+      }
+
+      h5 {
+        color: $base-darkest;
+      }
+
+      h5:active, h5:hover {
+        color: $base-light;
+      }
     }
   }
 
   h1 {
     text-align: center;
+    padding: 5% 0
   }
 }

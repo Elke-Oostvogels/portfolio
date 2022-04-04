@@ -3,10 +3,14 @@
 h1 {
   @include font-bold;
   margin: 0;
-  font-size: 224px;
+  font-size: 75px;
 
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 1px;
 
+  @media (min-width: $breakpoint--md) {
+    font-size: 224px;
+    -webkit-text-stroke-width: 3px;
+  }
 }
 
 h2 {
@@ -26,6 +30,8 @@ h4 {
   line-height: 12px;
   margin: 10px 0;
 }
+
+
 
 p {
   margin: 0;

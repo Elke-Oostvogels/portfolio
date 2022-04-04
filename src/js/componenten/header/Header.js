@@ -1,8 +1,10 @@
 import './header.scss';
+import {Menu} from "../menu/Menu";
 
 export const Header = (props) => {
 
     return <div className={`header header_bg-color${props.bg}`}>
-        <h1>{props.title}</h1>
+        <Menu/>
+        <h1 className={"header__titel"}>{props.title}</h1>
     </div>
 }

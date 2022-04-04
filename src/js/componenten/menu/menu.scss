@@ -1,0 +1,10 @@
+@import "src/scss/config/_config.scss";
+
+.menu {
+  padding: 5% 2%;
+
+  h5 {
+    @include font-regular;
+    padding: 0 15px;
+  }
+}
