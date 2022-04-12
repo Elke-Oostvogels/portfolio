@@ -11,5 +11,15 @@ body {
 .container {
   box-sizing: border-box;
   width: 100%;
-  padding: 100px 70px;
+  padding: 50px;
+
+  &_bg {
+    &-light {
+      background-color: $base-cold-light;
+    }
+  }
+
+  @media (min-width: $breakpoint--md) {
+    padding: 100px 70px;
+  }
 }

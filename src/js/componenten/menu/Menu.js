@@ -4,7 +4,7 @@ import './menu.scss';
 export const Menu = () => {
 
     return <div className={"flex justify-end menu"}>
-        <Link to={"/home"}>
+        <Link to={"/"}>
             <h5>Home</h5>
         </Link>
 

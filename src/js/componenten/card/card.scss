@@ -3,7 +3,7 @@
 .card {
 
   margin: 35px auto;
-  background-color: $ligtest;
+  background-color: $lightest;
   box-shadow: 0 20px 20px 0 rgba(121, 120, 129, 0.2);
   border-radius: 15px;
 
@@ -11,9 +11,16 @@
     box-sizing: border-box;
     bottom: 15px;
     text-align: center;
-    width: 450px;
-    height: 382px;
-    padding-top: 65%;
+    width: 260px;
+    height: 218px;
+    padding-top: 60%;
+
+    @media (min-width: $breakpoint--md) {
+      width: 450px;
+      height: 382px;
+      padding-top: 65%;
+
+    }
   }
 
   &_md {

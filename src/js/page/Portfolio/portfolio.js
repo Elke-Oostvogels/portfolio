@@ -2,30 +2,32 @@ import {Header} from "../../componenten/header/Header";
 import './portfolio.scss';
 import {SwiperInfo} from "../../componenten/swiper/swiper";
 import {Footer} from "../../componenten/footer/Footer";
+import {SubTitle} from "../../componenten/subTitle/SubTitle";
+import React from "../../../assets/logos/react.png";
 
 const Webprojecten = [{id: 1, title: "App Scheldeoord"}, {id: 2, title: "Kokomocity"}, {id: 3, title: "Bib"}, {
-    id: 3,
+    id: 4,
     title: "Zwemclub Delfino"
 }];
-const Stageprojecten = [{id: 1, title: "Huizenscanner"}, {id: 2, title: "Mortsel helpt"}];
-const Graphprojecten = [{id: 4, title: "Historas"}, {id: 5, title: "Levis kortingsbonnen"}, {
-    id: 6,
+const Stageprojecten = [{id: 5, title: "Huizenscanner"}, {id: 6, title: "Mortsel helpt"}];
+const Graphprojecten = [{id: 7, title: "Historas"}, {id: 8, title: "Levis kortingsbonnen"}, {
+    id: 9,
     title: "Bestickering WSL"
 }, {
-    id: 7,
+    id: 10,
     title: "Rule"
 }, , {
-    id: 8,
+    id: 11,
     title: "Brochure faalangst"
 }];
 
 export const Portfolio = () => {
 
     return <div className={"portfolio"}>
-        <Header title={"Portfolio"} bg={"_dark"}/>
-        <div className={"container"}>
+        <Header title={"Portfolio"} bg={"_cold-dark"} color={"base-cold"}/>
+        <div className={"container container_bg-light"}>
             <div className={"portfolio__content"}>
-                <h3>Programmeren</h3>
+                <SubTitle title={"Programmeren"} color={"base-cold"}/>
                 <p>Zie hier een selectie van projecten die ik gedurende mijn opleiding Programmeren en stage gemaakt
                     heb.
                     Deze projecten verschillen op verschillende opzichten van elkaar, dit qua taal maar ook
@@ -38,7 +40,7 @@ export const Portfolio = () => {
 
             </div>
             <div className={"portfolio__content"}>
-                <h3>Grafisch ontwerp</h3>
+                <SubTitle title={"Grafisch ontwerp"} color={"base-cold"}/>
                 <p>
                     Zie hier een selectie van projecten van mijn opleiding Publiciteit en Webdesign maar ook van
                     projecten

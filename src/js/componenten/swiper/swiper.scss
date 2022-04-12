@@ -1,0 +1,9 @@
+@import "src/scss/config/config";
+
+.swiper-wrapper {
+  margin-left: 0;
+
+  @media (min-width: $breakpoint--md) {
+    margin-left: 15px;
+  }
+}

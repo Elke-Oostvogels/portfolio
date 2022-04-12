@@ -11,10 +11,10 @@
 
   &_bg-color {
     &_dark {
-      background-color: $base-darker;
+      background-color: $base-dark;
 
       .header__titel {
-        -webkit-text-fill-color: $base-darker;
+        -webkit-text-fill-color: $base-dark;
         -webkit-text-stroke-color: $accent-light;
       }
 
@@ -49,7 +49,7 @@
 
       .header__titel {
         -webkit-text-fill-color: $accent-dark;
-        -webkit-text-stroke-color: $ligtest;
+        -webkit-text-stroke-color: $lightest;
       }
 
       h5 {

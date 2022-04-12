@@ -1,0 +1,50 @@
+@import "src/scss/config/config";
+
+.header {
+  box-sizing: border-box;
+  height: 50vh;
+
+  @media (min-width: $breakpoint--md) {
+    height: 90vh;
+  }
+
+  &__content {
+    box-sizing: border-box;
+
+    h1 {
+      color: $lightest;
+    }
+  }
+
+  &_bg-color {
+
+
+    &_warm-dark {
+      background-color: $base-warm-dark;
+    }
+
+    &_cold-dark {
+      background-color: $base-cold-dark;
+    }
+  }
+
+  .line {
+    width: 495px;
+    height: 100px;
+    margin-left: 47%;
+    margin-top: 150px;
+
+    &_base_warm_light {
+      background-color: $base-warm-light;
+    }
+
+    &_base-cold {
+      background-color: $base-cold;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: -300px;
+  }
+}

@@ -1,0 +1,29 @@
+@import "src/scss/config/config";
+
+.subtitle {
+  &__line {
+    height: 25px;
+    width: 250px;
+    margin-left: 5%;
+
+    &_base-cold-dark {
+      background-color: $base-cold-dark;
+    }
+
+    &_base-cold {
+      background-color: $base-cold;
+    }
+
+    &_base-warm-light {
+      background-color: $base-warm-light;
+    }
+
+    &_base-warm-dark {
+      background-color: $base-warm-dark;
+    }
+  }
+
+  h3 {
+    margin-top: -45px;
+  }
+}

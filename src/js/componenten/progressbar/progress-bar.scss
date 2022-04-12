@@ -12,27 +12,32 @@
   }
 
   &__title {
-    color: $base-darkest;
+    color: $base-cold-dark;
   }
 
   &__percentage {
     padding-top: 5px;
-    color: $base-light;
+    color: $dark;
   }
 
   &__progress-bar {
-    width: 90%;
+    width: 65%;
     height: 10px;
-    margin: 6px auto;
+    //margin: 6px auto;
     border-radius: 5px;
-    background-color: $accent-light;
+    background-color: $base-warm-dark;
+
+    @media (min-width: $breakpoint--md) {
+      width: 90%;
+      margin: 6px auto;
+    }
   }
 
   &__progress {
     height: 10px;
     display: block;
     border-radius: 5px;
-    background-color: $base-light;
+    background-color: $base-warm-light;
 
   }
 }
