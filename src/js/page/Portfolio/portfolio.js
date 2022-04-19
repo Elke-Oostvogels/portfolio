@@ -5,21 +5,25 @@ import {Footer} from "../../componenten/footer/Footer";
 import {SubTitle} from "../../componenten/subTitle/SubTitle";
 import React from "../../../assets/logos/react.png";
 
-const Webprojecten = [{id: 1, title: "App Scheldeoord"}, {id: 2, title: "Kokomocity"}, {id: 3, title: "Bib"}, {
-    id: 4,
-    title: "Zwemclub Delfino"
-}];
-const Stageprojecten = [{id: 5, title: "Huizenscanner"}, {id: 6, title: "Mortsel helpt"}];
-const Graphprojecten = [{id: 7, title: "Historas"}, {id: 8, title: "Levis kortingsbonnen"}, {
-    id: 9,
-    title: "Bestickering WSL"
-}, {
-    id: 10,
-    title: "Rule"
-}, , {
-    id: 11,
-    title: "Brochure faalangst"
-}];
+const Webprojecten = [{id: 1, title: "App Scheldeoord", url: "/project/scheldeoord"},
+    {id: 2, title: "Kokomocity", url: "/project/kokomocity"},
+    {id: 3, title: "Bib", url: "/project/bib"}, {
+        id: 4,
+        title: "Zwemclub Delfino", url: "/project/delfino"
+    }];
+const Stageprojecten = [{id: 5, title: "Huizenscanner", url: "/project/huizenscanner"},
+    {id: 6, title: "Mortsel helpt", url: "/project/mortselhelpt"}];
+const Graphprojecten = [{id: 7, title: "Historas", url: "/project/historas"},
+    {id: 8, title: "Levis kortingsbonnen", url: "/project/levis"}, {
+        id: 9,
+        title: "Bestickering WSL", url: "/project/wsl"
+    }, {
+        id: 10,
+        title: "Rule", url: "/project/rule"
+    }, , {
+        id: 11,
+        title: "Brochure faalangst", url: "/project/faalangst"
+    }];
 
 export const Portfolio = () => {
 

@@ -2,9 +2,13 @@
 
 .subtitle {
   &__line {
-    height: 25px;
+    height: 15px;
     width: 250px;
     margin-left: 5%;
+
+    @media (min-width: $breakpoint--md) {
+      height: 25px;
+    }
 
     &_base-cold-dark {
       background-color: $base-cold-dark;
@@ -24,6 +28,10 @@
   }
 
   h3 {
-    margin-top: -45px;
+    margin-top: -30px;
+
+    @media (min-width: $breakpoint--md) {
+      margin-top: -45px;
+    }
   }
 }

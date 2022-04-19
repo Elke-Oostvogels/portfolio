@@ -2,16 +2,23 @@
 
 html {
   @include font-regular;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0
+  margin: 0;
 }
 
 .container {
   box-sizing: border-box;
-  width: 100%;
-  padding: 50px;
+  margin: 0;
+  width: 100vw;
+  //padding: 50px;
+
+  @media (min-width: $breakpoint--xl-extra) {
+    box-sizing: border-box;
+    width: 100vw !important;
+  }
 
   &_bg {
     &-light {

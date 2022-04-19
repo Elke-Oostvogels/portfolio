@@ -1,0 +1,29 @@
+@import "src/scss/config/_config.scss";
+
+.footer {
+  background-color: $base-warm-light;
+  color: #042E26;
+  padding-top: 40px;
+  padding-bottom: 15px;
+
+  &__line {
+    background-color: $base-cold-dark;
+    height: 25px;
+    width: 150px;
+    margin-left: 47%;
+  }
+
+  a {
+    margin-top: -75px;
+    padding: 15px 0;
+
+    @media (min-width: $breakpoint--md) {
+      margin-top: -60px;
+    }
+  }
+}
+
+img {
+  width: 25px;
+  margin: 15px;
+}

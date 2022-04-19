@@ -29,8 +29,8 @@
   }
 
   .line {
-    width: 495px;
-    height: 100px;
+    width: 30%;
+    height: 50px;
     margin-left: 47%;
     margin-top: 150px;
 
@@ -41,10 +41,18 @@
     &_base-cold {
       background-color: $base-cold;
     }
+    @media (min-width: $breakpoint--md) {
+      height: 100px;
+    }
+
   }
 
   h1 {
     text-align: center;
-    margin-top: -300px;
+    margin-top: -100px;
+
+    @media (min-width: $breakpoint--md) {
+      margin-top: -300px;
+    }
   }
 }
