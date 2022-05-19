@@ -12,7 +12,7 @@ import Sfeer from '../../../../src/assets/work/sfeer.jpg';
 export const Hobby = (props) => {
 
     return <div className={"hobby"}>
-        <Header title={"Hobby"} bg={"_warm-dark"} color={"base_warm_light"}/>
+        <Header title={"Hobby"} bg={"_cold-dark"} color={"base-cold"}/>
         <div className={"container container_bg-light"}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-full md:basis-2/4"}>
