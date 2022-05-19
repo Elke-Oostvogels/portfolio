@@ -1,0 +1,11 @@
+@import "src/scss/config/config";
+
+.hobby {
+  &__quote {
+    @include font-bold;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    color: $dark;
+  }
+}

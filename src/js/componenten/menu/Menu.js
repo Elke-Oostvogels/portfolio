@@ -15,9 +15,8 @@ export const Menu = () => {
         <Link to={"/wie"}>
             <h5>Wie</h5>
         </Link>
-        <Link to={"/contact"}>
-            <h5>Contact</h5>
+        <Link to={"/hobby"}>
+            <h5>Hobby</h5>
         </Link>
-
     </div>
 }

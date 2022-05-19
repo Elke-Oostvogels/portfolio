@@ -1,9 +1,36 @@
 @import "src/scss/config/config";
 
-.wie{
-}
-.light {
+.wie {
+  &__info {
+    margin: 15px;
 
-  line-height: 30px;
-  @include font-light;
+    li {
+      @include font-bold;
+      font-size: 17px;
+    }
+  }
+
+  &__img {
+    width: auto;
+    background-color: $lightest;
+    margin: 15px;
+    //height: 75px;
+
+    &-logos {
+      padding: 15px;
+      background-color: $base-cold;
+      height: 75px;
+    }
+    &-logos:hover {
+      padding: 15px;
+      background-color: $base-cold-dark;
+      height: 75px;
+    }
+  }
+
+  &__content {
+    p {
+      line-height: 30px;
+    }
+  }
 }

@@ -5,17 +5,17 @@ import "./swiper.scss";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Card} from "../card/Card";
 import {Mousewheel} from "swiper";
+import {Navigation} from "swiper";
 import {Progressbar} from "../progressbar/Progressbar";
-import {Link} from "react-router-dom";
 
 export const SwiperInfo = (props) => {
 
     return <div>
         <Swiper
+            navigation={true}
             direction={"horizontal"}
             mousewheel={true}
             slidesPerView={1}
-            spaceBetween={10}
             pagination={{
                 clickable: true,
             }}
@@ -28,18 +28,21 @@ export const SwiperInfo = (props) => {
                     slidesPerView: 3,
                     spaceBetween: 40,
                 },
+                1500: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1700: {
+                    slidesPerView: 5,
+                    spaceBetween: 40,
+                }
             }}
-            modules={[Mousewheel]}
+            modules={[Mousewheel, Navigation]}
         >
             {props.info.map(i =>
                 <SwiperSlide key={i.id}>
                     {console.log(i)}
-                    {i.url !== undefined?
-                        <Link to={i.url}>
-                            <Card size={props.size} {...i} color={props.color}/>
-                            {props.class === "card__progressbar" ? <Progressbar proc={i.rating}/> : <></>}
-                        </Link>
-                    : <Card size={props.size} {...i} color={props.color}/>}
+                    <Card size={props.size} {...i} color={props.color}/>
                     {props.class === "card__progressbar" ? <Progressbar proc={i.rating}/> : <></>}
                 </SwiperSlide>
             )}

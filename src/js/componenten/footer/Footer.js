@@ -6,7 +6,7 @@ import Instagram from '../../../../src/assets/icons/instagram.svg';
 
 export const Footer = () => {
 
-    return <div className={"basis-full footer"}>
+    return <footer className={"basis-full footer"}>
         <div>
             <div className={"footer__line"}></div>
             <div className={"flex justify-center"}>
@@ -27,5 +27,5 @@ export const Footer = () => {
         <div className={"flex justify-center"}>
             &copy; Elke Oostvogels - 2022
         </div>
-    </div>
+    </footer>
 }

@@ -1,11 +1,16 @@
 import {Header} from "../../componenten/header/Header";
 import {Card} from "../../componenten/card/Card";
 import React from "../../../assets/logos/react.png";
+import {useEffect} from "react";
 
 export const Project = (props) => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+
     return <div>
-        <Header title={props.title} bg={"_warm-dark"} color={"base-cold"}/>
+        <Header title={props.title} bg={"_warm-dark"} color={"base-cold"} size={"sm"}/>
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-2/4"}>

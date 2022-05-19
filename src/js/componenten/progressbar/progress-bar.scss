@@ -2,7 +2,11 @@
 
 .beoordeling {
   margin: 20px auto;
-  width: 360px;
+
+  @media (min-width: $breakpoint--md) {
+    margin: 20px auto;
+    width: 200px;
+  }
 
   &__content {
     @include font-bold;
@@ -23,13 +27,13 @@
   &__progress-bar {
     width: 65%;
     height: 10px;
-    //margin: 6px auto;
+    margin: 6px auto;
     border-radius: 5px;
     background-color: $base-cold-dark;
 
     @media (min-width: $breakpoint--md) {
       width: 90%;
-      margin: 6px auto;
+      margin: 6px 15px;
     }
   }
 

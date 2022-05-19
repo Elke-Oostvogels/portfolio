@@ -1,14 +1,24 @@
 @import "src/scss/config/config";
 
 .subtitle {
-  &__line {
-    height: 15px;
-    width: 250px;
-    margin-left: 5%;
+  box-sizing: border-box;
 
-    @media (min-width: $breakpoint--md) {
-      height: 25px;
+  &__line {
+    &_sm {
+      margin-left: 5%;
+      height: 15px;
+      width: 250px;
+      @media (min-width: $breakpoint--md) {
+        height: 25px;
+      }
     }
+
+    &_xl {
+      margin-left: 2%;
+      height: 45px;
+      width: 93vw;
+    }
+
 
     &_base-cold-dark {
       background-color: $base-cold-dark;
@@ -27,11 +37,20 @@
     }
   }
 
-  h3 {
+  .sm {
     margin-top: -30px;
 
     @media (min-width: $breakpoint--md) {
       margin-top: -45px;
     }
   }
+
+  .xl {
+    margin-top: -30px;
+
+    @media (min-width: $breakpoint--md) {
+      margin-top: -65px;
+    }
+  }
+
 }
