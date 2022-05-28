@@ -2,7 +2,8 @@ import {Header} from "../../../componenten/header/Header";
 import {Card} from "../../../componenten/card/Card";
 import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
-
+import {Footer} from "../../../componenten/footer/Footer";
+import Logo from "../../../../assets/work/delfino.png";
 export const Delfino = (props) => {
 
     useEffect(() => {
@@ -14,7 +15,7 @@ export const Delfino = (props) => {
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-2/4"}>
-                    <Card size={'_sqr'}/>
+                    <Card size={'_sqr-header'} img={Logo}/>
                 </div>
                 <div className={"basis-2/4"}>
                     <p>
@@ -34,5 +35,6 @@ export const Delfino = (props) => {
                 </div>
             </div>
         </div>
+        <Footer/>
     </div>
 }

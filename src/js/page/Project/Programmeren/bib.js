@@ -2,7 +2,8 @@ import {Header} from "../../../componenten/header/Header";
 import {Card} from "../../../componenten/card/Card";
 import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
-
+import {Footer} from "../../../componenten/footer/Footer";
+import HeaderImage from "../../../../assets/work/Bib/Inlog-scherm.jpg";
 export const Bib = (props) => {
 
     useEffect(() => {
@@ -14,7 +15,7 @@ export const Bib = (props) => {
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-2/4"}>
-                    <Card size={'_sqr'}/>
+                    <Card size={'_sqr-header'} img={HeaderImage}/>
                 </div>
                 <div className={"basis-2/4"}>
                     <p>
@@ -72,5 +73,6 @@ export const Bib = (props) => {
                 </div>
             </div>
         </div>
+        <Footer/>
     </div>
 }

@@ -2,6 +2,7 @@ import {Header} from "../../../componenten/header/Header";
 import {Card} from "../../../componenten/card/Card";
 import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
+import {Footer} from "../../../componenten/footer/Footer";
 
 export const ParkNaam = (props) => {
 
@@ -14,11 +15,12 @@ export const ParkNaam = (props) => {
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-2/4"}>
-                    <Card size={'_sqr'}/>
+                    <Card size={'_sqr-header'}/>
                 </div>
                 <div className={"basis-2/4"}>
                     <p>
-                        Park zkt. naam is een landingspagina waar mensen kunnen stemmen voor een naam voor het park aan de gedempte Zuiderdokken.
+                        Park zkt. naam is een landingspagina waar mensen kunnen stemmen voor een naam voor het park aan
+                        de gedempte Zuiderdokken.
                         Deze landingspagina bevat een formulier om te stemmen en een bedanking pagina.
                     </p>
                     <p>
@@ -30,5 +32,6 @@ export const ParkNaam = (props) => {
                 </div>
             </div>
         </div>
+        <Footer/>
     </div>
 }

@@ -1,6 +1,5 @@
 import './card.scss';
 import {Link} from "react-router-dom";
-import {faDivide} from "@fortawesome/free-solid-svg-icons";
 
 export const Card = (props) => {
 
@@ -39,7 +38,9 @@ export const Card = (props) => {
                 </Link>
                 :
                 <div className={`flex justify-center`}>
-                    {props.img !== undefined ? <img src={props.img} className={props.color}/> :
+                    {props.img !== undefined ? <div className={`card__photo card__photo${props.size}`} style={{
+                            backgroundImage: `url(${props.img})`
+                        }}></div> :
                         <p>{props.title}</p>}
                     {props.size === '_lg' ? <h3>{props.title}</h3> : <></>}
                 </div>

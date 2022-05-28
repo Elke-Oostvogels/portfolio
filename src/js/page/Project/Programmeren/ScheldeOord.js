@@ -2,6 +2,8 @@ import {Header} from "../../../componenten/header/Header";
 import {Card} from "../../../componenten/card/Card";
 import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
+import {Footer} from "../../../componenten/footer/Footer";
+import HeaderImage from "../../../../assets/work/ScheldeOord/logo.jpg";
 
 export const ScheldeOord = (props) => {
 
@@ -14,7 +16,7 @@ export const ScheldeOord = (props) => {
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-2/4"}>
-                    <Card size={'_sqr'}/>
+                    <Card size={'_sqr-header'} img={HeaderImage}/>
                 </div>
                 <div className={"basis-2/4"}>
                     <p>
@@ -51,7 +53,8 @@ export const ScheldeOord = (props) => {
                     </p>
                     <p>
                         <b>Scheldeoord safari:</b> dit is een extra activiteit georganiseerd door de camping uitbater.
-                        Men kan via een vaartocht op de Westerschelde opzoek gaan naar zeehonden. Deze liggen bij laag water op zandbanken.
+                        Men kan via een vaartocht op de Westerschelde opzoek gaan naar zeehonden. Deze liggen bij laag
+                        water op zandbanken.
                         Op deze pagina vind men de prijzen en kan men ee reservatie maken.
                     </p>
                     <p>
@@ -74,5 +77,6 @@ export const ScheldeOord = (props) => {
                 </div>
             </div>
         </div>
+        <Footer/>
     </div>
 }

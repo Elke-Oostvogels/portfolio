@@ -2,6 +2,7 @@ import {Header} from "../../../componenten/header/Header";
 import {Card} from "../../../componenten/card/Card";
 import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
+import {Footer} from "../../../componenten/footer/Footer";
 
 export const Huizenscanner = (props) => {
 
@@ -14,7 +15,7 @@ export const Huizenscanner = (props) => {
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-2/4"}>
-                    <Card size={'_sqr'}/>
+                    <Card size={'_sqr-header'}/>
                 </div>
                 <div className={"basis-2/4"}>
                     <p>
@@ -35,5 +36,6 @@ export const Huizenscanner = (props) => {
                 </div>
             </div>
         </div>
+        <Footer/>
     </div>
 }
