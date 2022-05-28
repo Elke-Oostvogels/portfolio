@@ -1,22 +1,50 @@
 import './card.scss';
 import {Link} from "react-router-dom";
+import {faDivide} from "@fortawesome/free-solid-svg-icons";
 
 export const Card = (props) => {
 
-    return <div className={`card card${props.size} flex justify-center`}>
-        {props.url !== undefined ?
-            <Link to={props.url}>
+    return props.stijl === "hover_stijl" ?
+        <div className={`card card${props.size} flex justify-center card_${props.stijl} ${props.size}`}>
+            {props.url !== undefined ?
+                <Link to={props.url}>
+                    <div className={`flex justify-center`}>
+                        <div className={`hover_color${props.size}`}>
+                        </div>
+                        <div className={`card__photo card__photo${props.size}`} style={{
+                            backgroundImage: `url(${props.img})`
+                        }}></div>
+                        {/*<img src={props.img} className={props.color}/>*/}
+                        <div className={`hover_text hover_text${props.size}`}>
+                            <h3>{props.title}</h3>
+                        </div>
+                    </div>
+                </Link>
+                :
                 <div className={`flex justify-center`}>
-                    {props.img !== undefined ? <img src={props.img} className={props.color}/> : <p>{props.title}</p>}
+                    {props.img !== undefined ? <img src={props.img} className={props.color}/> :
+                        <p>{props.title}</p>}
                     {props.size === '_lg' ? <h3>{props.title}</h3> : <></>}
                 </div>
-            </Link>
-            :
-            <div className={`flex justify-center`}>
-                {props.img !== undefined ? <img src={props.img} className={props.color}/> : <p>{props.title}</p>}
-                {props.size === '_lg' ? <h3>{props.title}</h3> : <></>}
-            </div>
-        }
-    </div>
+            }
+        </div> :
+        <div className={`card card${props.size} flex justify-center`}>
+            {props.url !== undefined ?
+                <Link to={props.url}>
+                    <div className={`flex justify-center`}>
+                        {props.img !== undefined ? <img src={props.img} className={props.color}/> :
+                            <p>{props.title}</p>}
+                        {props.size === '_lg' ? <h3>{props.title}</h3> : <></>}
+                    </div>
+                </Link>
+                :
+                <div className={`flex justify-center`}>
+                    {props.img !== undefined ? <img src={props.img} className={props.color}/> :
+                        <p>{props.title}</p>}
+                    {props.size === '_lg' ? <h3>{props.title}</h3> : <></>}
+                </div>
+            }
+        </div>
+
 }
 

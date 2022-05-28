@@ -42,7 +42,7 @@ export const SwiperInfo = (props) => {
             {props.info.map(i =>
                 <SwiperSlide key={i.id}>
                     {console.log(i)}
-                    <Card size={props.size} {...i} color={props.color}/>
+                    <Card size={props.size} {...i} color={props.color} stijl={props.stijl}/>
                     {props.class === "card__progressbar" ? <Progressbar proc={i.rating}/> : <></>}
                 </SwiperSlide>
             )}

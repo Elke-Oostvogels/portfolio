@@ -1,15 +1,43 @@
 @import "src/scss/config/config";
 
 .card {
-
   margin: 35px auto;
   background-color: $lightest;
   box-shadow: 0 20px 20px 0 rgba(121, 120, 129, 0.2);
   border-radius: 15px;
 
-  //p{
-  //  color: $base-cold-dark;
-  //}
+  &__photo {
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    @include font-bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    //margin: 15px;
+    @media screen and (max-width: $breakpoint--sm) {
+      margin: 10px auto;
+    }
+
+    &_lg {
+      width: 350px;
+      height: 300px;
+    }
+
+    &_sqr {
+      width: 250px;
+      height: 250px;
+
+      @media (min-width: $breakpoint--md) {
+        width: 350px;
+        height: 350px;
+      }
+      @media (min-width: $breakpoint--lg) {
+        width: 450px;
+        height: 450px;
+      }
+    }
+  }
 
   &_lg {
     position: relative;
@@ -43,7 +71,7 @@
   }
 
   &_sqr-header {
-    margin-top: -150px;
+    margin-top: -5px;
     width: 250px;
     height: 250px;
 
@@ -68,10 +96,63 @@
     }
   }
 
-  //
-  //img {
-  //  width: auto;
-  //}
+  &_hover_stijl {
+    position: relative;
+  }
+
+
+  &_hover_stijl:hover {
+    .hover_color_lg {
+      z-index: 6;
+      opacity: 0.75;
+      position: absolute;
+      width: 350px;
+      height: 300px;
+      background-color: $base-cold;
+      border-radius: 15px;
+    }
+
+    .hover_color_sqr {
+      z-index: 6;
+      opacity: 0.75;
+      position: absolute;
+      width: 450px;
+      height: 450px;
+      background-color: $base-cold;
+      border-radius: 15px;
+    }
+
+    .hover_text {
+      z-index: 8;
+      position: absolute;
+      opacity: 1;
+
+      &_lg {
+        top: 90%;
+        left: 10%;
+      }
+
+      &_sqr {
+        top: 80%;
+      }
+
+      h3 {
+        text-align: center;
+        width: 300px;
+      }
+    }
+  }
+
+  .hover_text {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .img_hobby {
+    //width: auto;
+    border-radius: 15px;
+    height: auto;
+  }
 
   .img_black-white {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */

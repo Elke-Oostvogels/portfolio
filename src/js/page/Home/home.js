@@ -12,46 +12,22 @@ export const Home = (props) => {
     return <div>
         <Header title={"Home"} bg={"_warm-dark"} color={"base_warm_light"}/>
         <div className={"container container_bg-light"}>
-            <SubTitle title={"Hoi"} color={"base-warm-dark"} size={"sm"}/>
             <div className={"flex flex-row flex-wrap"}>
-                <div className={"basis-full  md:basis-1/2"}>
-                    <p>
-                        Van kinds af ben ik bezig met fotografie. Alles begon met een oude camera die stuk was, doch
-                        waarmee ik dan speels als kind foto’s maakte. Deze werd na een tijdje vervangen door een oude
-                        digitale compact camera met vaste lens die gelukkig nog werkte. De camera ging vaak met mij mee
-                        en ik liep overal foto’s te maken van de meest normale zaken. In het middelbaar ben ik van een
-                        compacte camera overgeschakeld naar een spiegelreflex camera. Hier kon ik nog zoveel meer mee.
-                        Plots waren er haast geen beperkingen meer, alles zelf instellen gaf zoveel meer mogelijkheden
-                        dan bij een compact camera. Op het H. Graf Instituut te Turnhout was één van mijn lesuren
-                        fotografie. Dit was een gedroomde situatie waarbij ik bijzonder veel heb opgestoken. Het was
-                        hier dat ik een fotografieproject mocht uitvoeren geïnspireerd door de modefotograaf Zeb Daemen,
-                        een oud leerling van deze school. Hij kon ons bijsturen en inspireren in die fotografie. Doordat
-                        ik vaak mijn fototoestel meenam op excursies was ik een soort klasfotograaf. In mijn
-                        specialisatie jaar kreeg ik binnen het leerbedrijf 'Lamoen de box' dan ook een opdracht als
-                        ‘fotograaf’. Hierdoor kreeg ik de kans om nog meer met fotografie bezig te zijn dan gewoonlijk.
-                        Al doende leren was hier echt een plezier om te beleven. Zo heb ik tijdens dat jaar
-                        verschillende fotografieprojecten mogen uitvoeren nl. productfotografie, personenfotografie en
-                        sfeerfotografie
-                    </p>
+                <div className={"basis-full md:basis-2/4"}>
+                    <Card size={'_sqr-header'}/>
                 </div>
-                <div className={"basis-full  md:basis-1/2"}>
+                <div className={"basis-full  md:basis-2/4"}>
+                    <SubTitle title={"Wie ben ik?"} color={"base-warm-dark"} size={"sm"}/>
                     <p>
-                        Van kinds af ben ik bezig met fotografie. Alles begon met een oude camera die stuk was, doch
-                        waarmee ik dan speels als kind foto’s maakte. Deze werd na een tijdje vervangen door een oude
-                        digitale compact camera met vaste lens die gelukkig nog werkte. De camera ging vaak met mij mee
-                        en ik liep overal foto’s te maken van de meest normale zaken. In het middelbaar ben ik van een
-                        compacte camera overgeschakeld naar een spiegelreflex camera. Hier kon ik nog zoveel meer mee.
-                        Plots waren er haast geen beperkingen meer, alles zelf instellen gaf zoveel meer mogelijkheden
-                        dan bij een compact camera. Op het H. Graf Instituut te Turnhout was één van mijn lesuren
-                        fotografie. Dit was een gedroomde situatie waarbij ik bijzonder veel heb opgestoken. Het was
-                        hier dat ik een fotografieproject mocht uitvoeren geïnspireerd door de modefotograaf Zeb Daemen,
-                        een oud leerling van deze school. Hij kon ons bijsturen en inspireren in die fotografie. Doordat
-                        ik vaak mijn fototoestel meenam op excursies was ik een soort klasfotograaf. In mijn
-                        specialisatie jaar kreeg ik binnen het leerbedrijf 'Lamoen de box' dan ook een opdracht als
-                        ‘fotograaf’. Hierdoor kreeg ik de kans om nog meer met fotografie bezig te zijn dan gewoonlijk.
-                        Al doende leren was hier echt een plezier om te beleven. Zo heb ik tijdens dat jaar
-                        verschillende fotografieprojecten mogen uitvoeren nl. productfotografie, personenfotografie en
-                        sfeerfotografie
+                        Hoi, ik ben Elke Oostvogels. Ik ben een 22 jarige studente. Momenteel ben ik bezig aan mijn
+                        laatste
+                        jaar
+                        van het graduaat Programmeren. Na deze studie zou ik graag aan de slag gaan als Front-end
+                        developer,
+                        dit
+                        omvangt mijn interesses. Namelijk het coderen ik vind het geweldig om een applicatie te zien
+                        ontstaan
+                        maar ook het grafische aspect dat alles ook mooi staat.
                     </p>
                 </div>
             </div>
@@ -67,14 +43,10 @@ export const Home = (props) => {
         </div>
         <div className={"container container_bg-light"}>
             <SubTitle title={"Bekijk zeker"} color={"base-warm-dark"} size={"sm"}/>
-            <div className={"basis-full md:basis-2/6"}>
-                <Card size={'_sqr'} img={Sfeer}/>
-            </div>
-            <div className={"basis-full md:basis-2/6"}>
-                <Card size={'_sqr'} img={Sfeer}/>
-            </div>
-            <div className={"basis-full md:basis-2/6"}>
-                <Card size={'_sqr'} img={Sfeer}/>
+            <div className={"flex flex-col lg:flex-row"}>
+                <Card size={'_sqr'} stijl={"hover_stijl"} img={Sfeer} title={"Portfolio"} url={"/portfolio"}/>
+                <Card size={'_sqr'} stijl={"hover_stijl"} img={Sfeer} title={"Hobby"} url={"/hobby"}/>
+                <Card size={'_sqr'} stijl={"hover_stijl"} img={Sfeer} title={"Wie ben ik?"} url={"/wie"}/>
             </div>
         </div>
         <Footer/>

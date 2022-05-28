@@ -7,3 +7,15 @@
     margin-left: 15px;
   }
 }
+
+.swiper {
+  &-button {
+    &-next, &-prev {
+      color: $lightest;
+      @media (max-width: $breakpoint--md) {
+        color: $base-warm-light;
+      }
+    }
+
+  }
+}

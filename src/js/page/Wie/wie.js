@@ -29,6 +29,7 @@ import Indesign from '../../../../src/assets/logos/logo_indesign.png';
 import Illustration from '../../../../src/assets/logos/logo_c.png';
 import Adobe from '../../../../src/assets/logos/logo_photoshop.png';
 import {SubTitle} from "../../componenten/subTitle/SubTitle";
+import {useEffect} from "react";
 
 const hard_skills = [
     {
@@ -122,6 +123,9 @@ const soft_skills = [
 ];
 
 export const Wie = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
     return <div>
         <Header title={"Wie"} bg={"_warm-dark"} color={"base_warm_light"}/>
         <div className={"container container_bg-light"}>
@@ -172,68 +176,69 @@ export const Wie = () => {
                 <SubTitle title={"Soft Skills"} color={"base-cold"} size={"sm"}/>
                 <SwiperInfo info={soft_skills} size={'_md'} class={"card__progressbar"} color={'img_black-white'}/>
             </div>
-            <div className={"py-10"}>
-                <SubTitle title={"Opleidingen"} color={"base-warm-dark"} size={"sm"}/>
-                <div className={"flex flex-row justify-between  flex-wrap"}>
-                    <div className={"flex basis-full sm:basis-full md:basis-2/6 mt-4"}>
-                        <img className={"wie__img wie__img-logos"} src={ThomasMore}/>
-                        <div className={"wie__content justify-center"}>
-                            <h4>Programmeren</h4>
-                            <p>Thomas more - Turnhout</p>
-                            <p>2020-2022</p>
+            <div className={"py-10 flex flex-row"}>
+                <div className="basis-2/4"><SubTitle title={"Opleidingen"} color={"base-warm-dark"} size={"sm"}
+                                                     line={"_xl-height"}/>
+                    <div className={"flex flex-col"}>
+                        <div className={"flex basis-full  mt-4"}>
+                            <img className={"wie__img wie__img-logos"} src={ThomasMore}/>
+                            <div className={"wie__content justify-center"}>
+                                <h4>Programmeren</h4>
+                                <p>Thomas more - Turnhout</p>
+                                <p>2020-2022</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className={" flex basis-full sm:basis-full md:basis-2/6 mt-4"}>
-                        <img className={"wie__img wie__img-logos"} src={SintMaria}/>
-                        <div className={"wie__content"}>
-                            <h4>Webdesign</h4>
-                            <p>Instituut Sint-Maria - Antwerpen</p>
-                            <p>2019-2020</p>
+                        <div className={" flex basis-full mt-4"}>
+                            <img className={"wie__img wie__img-logos"} src={SintMaria}/>
+                            <div className={"wie__content"}>
+                                <h4>Webdesign</h4>
+                                <p>Instituut Sint-Maria - Antwerpen</p>
+                                <p>2019-2020</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className={" flex basis-full sm:basis-full md:basis-2/6 mt-4"}>
-                        <img className={"wie__img wie__img-logos"} src={HeiligGraf}/>
-                        <div className={"wie__content"}>
-                            <h4>Publiciteit</h4>
-                            <p>Heilig graf - Turnhout</p>
-                            <p>2015-2019</p>
+                        <div className={" flex basis-full mt-4"}>
+                            <img className={"wie__img wie__img-logos"} src={HeiligGraf}/>
+                            <div className={"wie__content"}>
+                                <h4>Publiciteit</h4>
+                                <p>Heilig graf - Turnhout</p>
+                                <p>2015-2019</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className={"py-10"}>
-                <SubTitle title={"Stage"} color={"base-warm-dark"} size={"sm"}/>
-                <div className={"flex flex-row justify-between  flex-wrap"}>
-                    <div className={"flex basis-full sm:basis-full md:basis-2/6 mt-4"}>
-                        <a href="https://viavictor.com/" target={"_blank"}>
-                            <img className={"wie__img wie__img-logos"} src={Viavictor}/>
-                        </a>
+                <div className="basis-2/4">
+                    <SubTitle title={"Stage"} color={"base-warm-dark"} size={"sm"}/>
+                    <div className={"flex flex-row justify-between  flex-wrap"}>
+                        <div className={"flex basis-full mt-4"}>
+                            <a href="https://viavictor.com/" target={"_blank"}>
+                                <img className={"wie__img wie__img-logos"} src={Viavictor}/>
+                            </a>
 
-                        <div className={"wie__content justify-center"}>
-                            <h4>ViaVictor</h4>
-                            <p>Thomas more - Turnhout</p>
-                            <p>2020-2022</p>
+                            <div className={"wie__content justify-center"}>
+                                <h4>ViaVictor</h4>
+                                <p>Thomas more - Turnhout</p>
+                                <p>2020-2022</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className={" flex basis-full sm:basis-full md:basis-2/6 mt-4"}>
-                        <a href="https://silverfish.nl/" target={"_blank"}>
-                            <img className={"wie__img wie__img-logos"} src={Silverfish}/>
-                        </a>
-
-                        <div className={"wie__content"}>
-                            <h4>Silverfish</h4>
-                            <p>Instituut Sint-Maria - Antwerpen</p>
-                            <p>2019-2020</p>
+                        <div className={" flex basis-full mt-4"}>
+                            <a href="https://silverfish.nl/" target={"_blank"}>
+                                <img className={"wie__img wie__img-logos"} src={Silverfish}/>
+                            </a>
+                            <div className={"wie__content"}>
+                                <h4>Silverfish</h4>
+                                <p>Instituut Sint-Maria - Antwerpen</p>
+                                <p>2019-2020</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className={" flex basis-full sm:basis-full md:basis-2/6 mt-4"}>
-                        <a href="https://dester.com/" target={"_blank"}>
-                            <img className={"wie__img wie__img-logos"} src={deSter}/>
-                        </a>
-                        <div className={"wie__content"}>
-                            <h4>deSter</h4>
-                            <p>Heilig graf - Turnhout</p>
-                            <p>2015-2019</p>
+                        <div className={" flex basis-full mt-4"}>
+                            <a href="https://dester.com/" target={"_blank"}>
+                                <img className={"wie__img wie__img-logos"} src={deSter}/>
+                            </a>
+                            <div className={"wie__content"}>
+                                <h4>deSter</h4>
+                                <p>Heilig graf - Turnhout</p>
+                                <p>2015-2019</p>
+                            </div>
                         </div>
                     </div>
                 </div>

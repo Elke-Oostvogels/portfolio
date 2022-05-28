@@ -8,11 +8,12 @@ import React from "../../../assets/logos/react.png";
 /*Werken*/
 import Faalangst from '../../../../src/assets/work/Brochure_faalangst_coer_klein.jpg';
 import Historas from '../../../../src/assets/work/Historas_klein.jpg';
-import WSL from '../../../../src/assets/work/wsl.jpg';
+import WSL from '../../../../src/assets/work/WSL/right.jpg';
 import Delfino from '../../../../src/assets/work/delfino.png';
 import Rule from '../../../../src/assets/work/Space_klein.jpg';
 import MortstelHelpt from '../../../../src/assets/work/mortsel_helpt.jpg';
 import Huizenscanner from '../../../../src/assets/logos/huizenscanner.svg';
+import {useEffect} from "react";
 
 const Webprojecten = [{id: 1, title: "App Scheldeoord", url: "/project/scheldeoord"},
     {id: 2, title: "Kokomocity", url: "/project/kokomocity"},
@@ -22,7 +23,7 @@ const Webprojecten = [{id: 1, title: "App Scheldeoord", url: "/project/scheldeoo
     }];
 const Stageprojecten = [
     {id: 5, title: "Huizenscanner", url: "/project/huizenscanner",img:Huizenscanner},
-    {id: 5, title: "Park zkt. naam", url: "/project/huizenscanner"},
+    {id: 5, title: "Park zkt. naam", url: "/project/parkzktnaam"},
     {id: 6, title: "Mortsel helpt", url: "/project/mortselhelpt", img:MortstelHelpt}];
 const Graphprojecten = [{id: 7, title: "Historas", url: "/project/historas", img:Historas},
     {
@@ -38,7 +39,9 @@ const Graphprojecten = [{id: 7, title: "Historas", url: "/project/historas", img
     }];
 
 export const Portfolio = () => {
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
     return <div className={"portfolio"}>
         <Header title={"Portfolio"} bg={"_cold-dark"} color={"base-cold"}/>
         <div className={"container container_bg-light"}>
@@ -50,9 +53,9 @@ export const Portfolio = () => {
                     onderwerp.</p>
 
                 <h4>Schoolprojecten</h4>
-                <SwiperInfo info={Webprojecten} size={'_lg'}/>
+                <SwiperInfo info={Webprojecten} size={'_lg'} stijl={"hover_stijl"}/>
                 <h4>Stage projecten</h4>
-                <SwiperInfo info={Stageprojecten} size={'_lg'}/>
+                <SwiperInfo info={Stageprojecten} size={'_lg'} stijl={"hover_stijl"}/>
 
             </div>
             <div className={"portfolio__content"}>
@@ -63,7 +66,7 @@ export const Portfolio = () => {
                     die
                     ik prive gemaakt heb.
                 </p>
-                <SwiperInfo info={Graphprojecten} size={'_lg'}/>
+                <SwiperInfo info={Graphprojecten} size={'_lg'} stijl={"hover_stijl"}/>
             </div>
         </div>
         <Footer/>
