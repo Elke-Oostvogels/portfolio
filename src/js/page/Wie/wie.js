@@ -16,17 +16,17 @@ import Silverfish from '../../../../src/assets/logos/silverfish.svg';
 import deSter from '../../../../src/assets/logos/dester.png';
 
 //logo's computertalen
-import HTML from '../../../../src/assets/logos/logo_html.png';
-import CSS from '../../../../src/assets/logos/logo_css.png';
+import HTML from '../../../../src/assets/logos/html.jpg';
+import CSS from '../../../../src/assets/logos/CSS.jpg';
 import C from '../../../../src/assets/logos/logo_c.png';
-import React from '../../../../src/assets/logos/react.png';
-import Angular from '../../../../src/assets/logos/angular.png';
-import Bootstrap from '../../../../src/assets/logos/logo_bootstrap.png';
+import React from '../../../../src/assets/logos/react.jpg';
+import Angular from '../../../../src/assets/logos/Angular.jpg';
+import Bootstrap from '../../../../src/assets/logos/bootrsrap.jpg';
 import WordPress from '../../../../src/assets/logos/logo_wordpress.png';
 
 // logo's andere
 import Indesign from '../../../../src/assets/logos/logo_indesign.png';
-import Illustration from '../../../../src/assets/logos/logo_c.png';
+import Illustration from '../../../../src/assets/logos/illustrator.jpg';
 import Adobe from '../../../../src/assets/logos/logo_photoshop.png';
 import {SubTitle} from "../../componenten/subTitle/SubTitle";
 import {useEffect} from "react";
@@ -63,17 +63,18 @@ const hard_skills = [
         rating: 0.65
     },
     {
-        id: 6,
-        title: 'Bootstrap',
-        img: Bootstrap,
-        rating: 0.85
-    },
-    {
         id: 7,
         title: 'WordPress',
         img: WordPress,
         rating: 0.75
     },
+    {
+        id: 6,
+        title: 'Bootstrap',
+        img: Bootstrap,
+        rating: 0.85
+    },
+
     {
         id: 8,
         title: 'Adobe Indesign',
@@ -176,9 +177,11 @@ export const Wie = () => {
                 <SubTitle title={"Soft Skills"} color={"base-cold"} size={"sm"}/>
                 <SwiperInfo info={soft_skills} size={'_md'} class={"card__progressbar"} color={'img_black-white'}/>
             </div>
-            <div className={"py-10 flex flex-row"}>
-                <div className="basis-2/4"><SubTitle title={"Opleidingen"} color={"base-warm-dark"} size={"sm"}
-                                                     line={"_xl-height"}/>
+            <div className={"flex flex-row flex-wrap"}>
+                <div className={"basis-full  md:basis-1/2 mt-8"}>
+                    <SubTitle title={"Opleidingen"} color={"base-warm-dark"}
+                              size={"sm"}
+                              line={"_xl-height"}/>
                     <div className={"flex flex-col"}>
                         <div className={"flex basis-full  mt-4"}>
                             <img className={"wie__img wie__img-logos"} src={ThomasMore}/>
@@ -206,7 +209,7 @@ export const Wie = () => {
                         </div>
                     </div>
                 </div>
-                <div className="basis-2/4">
+                <div className={"basis-full  md:basis-1/2 mt-8"}>
                     <SubTitle title={"Stage"} color={"base-warm-dark"} size={"sm"}/>
                     <div className={"flex flex-row justify-between  flex-wrap"}>
                         <div className={"flex basis-full mt-4"}>
@@ -216,8 +219,8 @@ export const Wie = () => {
 
                             <div className={"wie__content justify-center"}>
                                 <h4>ViaVictor</h4>
-                                <p>Thomas more - Turnhout</p>
-                                <p>2020-2022</p>
+                                <p>Front-end</p>
+                                <p>4 maanden</p>
                             </div>
                         </div>
                         <div className={" flex basis-full mt-4"}>
@@ -226,8 +229,8 @@ export const Wie = () => {
                             </a>
                             <div className={"wie__content"}>
                                 <h4>Silverfish</h4>
-                                <p>Instituut Sint-Maria - Antwerpen</p>
-                                <p>2019-2020</p>
+                                <p>Webdesign</p>
+                                <p>2 maanden</p>
                             </div>
                         </div>
                         <div className={" flex basis-full mt-4"}>
@@ -236,8 +239,8 @@ export const Wie = () => {
                             </a>
                             <div className={"wie__content"}>
                                 <h4>deSter</h4>
-                                <p>Heilig graf - Turnhout</p>
-                                <p>2015-2019</p>
+                                <p>Grafische afdelig</p>
+                                <p>2 maanden</p>
                             </div>
                         </div>
                     </div>

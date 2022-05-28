@@ -15,10 +15,10 @@ export const ScheldeOord = (props) => {
         <Header title={props.title} bg={"_warm-dark"} color={"base-cold"} size={"sm"}/>
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
-                <div className={"basis-2/4"}>
+                <div className={"basis-full  md:basis-1/2"}>
                     <Card size={'_sqr-header'} img={HeaderImage}/>
                 </div>
-                <div className={"basis-2/4"}>
+                <div className={"basis-full  md:basis-1/2"}>
                     <p>
                         <b>App scheldeoord</b>
                     </p>

@@ -14,7 +14,6 @@ export const SwiperInfo = (props) => {
         <Swiper
             navigation={true}
             direction={"horizontal"}
-            mousewheel={true}
             slidesPerView={1}
             pagination={{
                 clickable: true,
@@ -44,6 +43,41 @@ export const SwiperInfo = (props) => {
                     {console.log(i)}
                     <Card size={props.size} {...i} color={props.color} stijl={props.stijl}/>
                     {props.class === "card__progressbar" ? <Progressbar proc={i.rating}/> : <></>}
+                </SwiperSlide>
+            )}
+        </Swiper>
+    </div>
+}
+export const SwiperProjecten = (props) => {
+
+    return <div className={"projecten_img"}>
+        <Swiper
+            centeredSlides={true}
+            navigation={true}
+            direction={"horizontal"}
+            slidesPerView={1}
+            pagination={{
+                clickable: true,
+            }}
+            breakpoints={{
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                1500: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                }
+            }}
+            modules={[Mousewheel, Navigation]}
+        >
+            {props.info.map(i =>
+                <SwiperSlide key={i.id}>
+                    <img src={i.img}/>
                 </SwiperSlide>
             )}
         </Swiper>

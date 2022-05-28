@@ -14,10 +14,10 @@ export const Huizenscanner = (props) => {
         <Header title={props.title} bg={"_warm-dark"} color={"base-cold"} size={"sm"}/>
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
-                <div className={"basis-2/4"}>
+                <div className={"basis-full  md:basis-1/2"}>
                     <Card size={'_sqr-header'}/>
                 </div>
-                <div className={"basis-2/4"}>
+                <div className={"basis-full  md:basis-1/2"}>
                     <p>
                         <b>Gip opdracht:</b> verzin een fictief product maakt hiervoor een huisstijl.
                     </p>
