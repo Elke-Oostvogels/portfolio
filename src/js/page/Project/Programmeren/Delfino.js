@@ -4,6 +4,7 @@ import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
 import {Footer} from "../../../componenten/footer/Footer";
 import Logo from "../../../../assets/work/delfino.png";
+
 export const Delfino = (props) => {
 
     useEffect(() => {
@@ -29,9 +30,10 @@ export const Delfino = (props) => {
                     <p>
                         <b> Uitwerking:</b> Wordpress, Elementor en Woocommerce
                     </p>
-                    <p>
+                    <p className={"pb-5"}>
                         <b>Jaar:</b> 2021
                     </p>
+                    <a href={"https://zwemclubdelfino.be/"} target={"_blank"} className={"btn"}>Bekijk de website</a>
                 </div>
             </div>
         </div>

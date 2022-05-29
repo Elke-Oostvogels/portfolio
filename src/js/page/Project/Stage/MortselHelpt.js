@@ -17,7 +17,7 @@ export const MortselHelpt = (props) => {
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-full  md:basis-1/2"}>
-                    <Card size={'_sqr-header'} img={HeaderImage}/>
+                    <Card size={'_sqr-header'} img={HeaderImage} />
                 </div>
                 <div className={"basis-full  md:basis-1/2"}>
                     <p className={'py-2'}>
@@ -33,9 +33,10 @@ export const MortselHelpt = (props) => {
                     <p>
                         <b> Uitwerking:</b> HTML, TWIG & CSS
                     </p>
-                    <p>
+                    <p className={"pb-5"}>
                         <b>Jaar:</b> 2022
                     </p>
+                    <a href={"https://mortselhelpt.be/"} target={"_blank"} className={"btn"}>Bekijk de website</a>
                 </div>
                 <img src={WebsiteBeeld} className={"w-3/5 m-auto"}/>
             </div>

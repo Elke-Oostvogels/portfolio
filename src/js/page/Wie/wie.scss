@@ -21,6 +21,7 @@
       background-color: $base-cold;
       width: 150px;
     }
+
     &-logos:hover {
       padding: 15px;
       background-color: $base-cold-dark;
@@ -33,7 +34,21 @@
       line-height: 30px;
     }
   }
-  ul{
+
+  ul {
     list-style: none;
   }
+
+  .link{
+    a {
+      color: $lightest;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: underline;
+        color: $base-cold-dark;
+      }
+    }
+  }
+
 }

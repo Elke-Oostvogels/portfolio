@@ -51,7 +51,7 @@ export const Rule = (props) => {
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-full  md:basis-1/2"}>
-                    <Card size={'_sqr-header'} img={HeaderImg}/>
+                    <Card size={'_sqr-header'} img={HeaderImg} class={"cover"}/>
                 </div>
                 <div className={"basis-full  md:basis-1/2"}>
                     <p>

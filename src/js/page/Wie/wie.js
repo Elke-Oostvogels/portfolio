@@ -5,6 +5,7 @@ import {SwiperInfo} from "../../componenten/swiper/swiper";
 import {Footer} from "../../componenten/footer/Footer";
 
 // images
+import Portret from '../../../../src/assets/elke.jpg';
 //logo's opleidingen
 import SintMaria from '../../../../src/assets/logos/sint-maria.png';
 import HeiligGraf from '../../../../src/assets/logos/heilig-graf.png';
@@ -98,28 +99,23 @@ const hard_skills = [
 const soft_skills = [
     {
         id: 8,
-        title: 'Plannen',
-        rating: 0.85,
+        title: 'Plannen'
     },
     {
         id: 9,
-        title: 'Leergierig',
-        rating: 0.75
+        title: 'Leergierig'
     },
     {
         id: 10,
-        title: 'Creatief',
-        rating: 0.70
+        title: 'Creatief'
     },
     {
         id: 11,
-        title: 'Behulpzaam',
-        rating: 0.75
+        title: 'Behulpzaam'
     },
     {
         id: 12,
-        title: '',
-        rating: 0.65
+        title: 'Zelfstandig'
     }
 ];
 
@@ -132,7 +128,7 @@ export const Wie = () => {
         <div className={"container container_bg-light"}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-full md:basis-2/4"}>
-                    <Card size={'_sqr-header'}/>
+                    <Card size={'_sqr-header'} img={Portret} class={"cover"}/>
                 </div>
                 <div className={"basis-full  md:basis-2/4"}>
                     <SubTitle title={"Wie ben ik?"} color={"base-warm-dark"} size={"sm"}/>
@@ -163,7 +159,16 @@ export const Wie = () => {
                     <ul>
                         <li>+32 493 50 61 24</li>
                         <li>elkeoostvogels@outlook.com</li>
-                        <li>LinkedIn</li>
+                        <li className={"link"}>
+                            <a href="https://www.linkedin.com/in/elke-oostvogels-1b79791a4/" target={"_blank"}>
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li className={"link"}>
+                            <a href="../../../assets/OostvogelsElke_CV.pdf" download target={"_blank"}>
+                                CV
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -175,7 +180,7 @@ export const Wie = () => {
             </div>
             <div className={"py-10"}>
                 <SubTitle title={"Soft Skills"} color={"base-cold"} size={"sm"}/>
-                <SwiperInfo info={soft_skills} size={'_md'} class={"card__progressbar"} color={'img_black-white'}/>
+                <SwiperInfo info={soft_skills} size={'_md'} color={'img_black-white'}/>
             </div>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-full  md:basis-1/2 mt-8"}>

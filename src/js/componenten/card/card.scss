@@ -19,6 +19,7 @@
     //  margin: 10px auto;
     //}
 
+
     &_lg {
       width: 260px;
       height: 218px;
@@ -54,6 +55,10 @@
         background-position: center;
         width: 550px;
         height: 550px;
+      }
+
+      &_cover {
+        background-size: cover;
       }
     }
 

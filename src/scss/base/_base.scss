@@ -39,3 +39,15 @@ ul {
   padding: 5px 15px;
   margin: 5px;
 }
+
+.btn {
+  background-color: $base-cold;
+  color: $dark;
+  padding: 15px;
+  border-radius: 15px;
+
+  &:hover {
+    background-color: $base-warm-light;
+  }
+}
+

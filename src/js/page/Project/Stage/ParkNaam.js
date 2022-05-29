@@ -34,9 +34,10 @@ export const ParkNaam = (props) => {
                     <p>
                         <b> Uitwerking:</b> HTML & CSS
                     </p>
-                    <p>
-                        <b>Jaar:</b> 2018-2019
+                    <p className={"pb-5"}>
+                        <b>Jaar:</b> 2022
                     </p>
+                    <a href={"https://www.parkzktnaam.be/"} target={"_blank"} className={"btn"}>Bekijk de website</a>
                 </div>
                 <img src={WebsiteBeeld} className={"w-4/5 m-auto"}/>
             </div>

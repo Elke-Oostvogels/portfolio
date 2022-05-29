@@ -38,7 +38,7 @@ export const Card = (props) => {
                 </Link>
                 :
                 <div className={`flex justify-center`}>
-                    {props.img !== undefined ? <div className={`card__photo card__photo${props.size}`} style={{
+                    {props.img !== undefined ? <div className={`card__photo card__photo${props.size} card__photo${props.size}_${props.class}`} style={{
                             backgroundImage: `url(${props.img})`
                         }}></div> :
                         <p>{props.title}</p>}

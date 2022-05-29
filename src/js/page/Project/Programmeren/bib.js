@@ -115,7 +115,7 @@ export const Bib = (props) => {
         <div className={"container "}>
             <div className={"flex flex-row flex-wrap"}>
                 <div className={"basis-full  md:basis-1/2"}>
-                    <Card size={'_sqr-header'} img={HeaderImage}/>
+                    <Card size={'_sqr-header'} img={HeaderImage} class={"cover"}/>
                 </div>
                 <div className={"basis-full  md:basis-1/2"}>
                     <p>
