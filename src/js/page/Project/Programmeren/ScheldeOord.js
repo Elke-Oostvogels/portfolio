@@ -66,7 +66,7 @@ export const ScheldeOord = (props) => {
             <SwiperProjecten info={photo} size={'_lg'}/>
 
             <div className={"flex flex-row flex-wrap mt-8"}>
-                <div className={"basis-full  md:basis-1/2 p-8"}>
+                <div className={"basis-full  md:basis-1/2 md:p-8"}>
                     <p>
                         Mijn idee omvatte volgende pagina's:
                     </p>
@@ -94,7 +94,7 @@ export const ScheldeOord = (props) => {
                         Op deze pagina vind men de prijzen en kan men ee reservatie maken.
                     </p>
                 </div>
-                <div className={"basis-full  md:basis-1/2 p-8"}>
+                <div className={"basis-full  md:basis-1/2 md:p-8"}>
                     <p>
                         <b> Minimum vereisten:</b>
                         <ul>

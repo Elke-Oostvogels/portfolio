@@ -136,7 +136,7 @@ export const Bib = (props) => {
             </div>
             <SwiperProjecten info={photo} size={'_lg'}/>
             <div className={"flex flex-row flex-wrap"}>
-                <div className={"basis-full  md:basis-1/2 p-8"}>
+                <div className={"basis-full  md:basis-1/2  md:p-8"}>
                     <p>
                         <b>Briefing opdracht: </b>
                         Deze bibliotheek heeft als hoofddoel om boeken
@@ -162,7 +162,7 @@ export const Bib = (props) => {
                         niet-leden
                     </p>
                 </div>
-                <div className={"basis-full  md:basis-1/2 p-8"}>
+                <div className={"basis-full  md:basis-1/2 md:p-8"}>
                     <p>
                         <b> Gevorderde programmeertechnieken: </b> er waren een paar minimum vereiseten waar we aan
                         moesten voldoen

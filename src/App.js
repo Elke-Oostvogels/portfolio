@@ -37,7 +37,7 @@ function App() {
             <Route path={'/project/bib'} element={<Bib title={"Bib"}/>}/>
             <Route path={'/project/kokomocity'} element={<Kokomocity title={"Kokomocity"}/>}/>
             <Route path={'/project/delfino'} element={<Delfino title={"Delfino"}/>}/>
-            <Route path={'/project/huizenscanner'} element={<Huizenscanner title={"Huizenscanner"}/>}/>
+            <Route path={'/project/huizenscanner'} element={<Huizenscanner title={"Huizen scanner"}/>}/>
             <Route path={'/project/parkzktnaam'} element={<ParkNaam title={"Park zkt. naam"}/>}/>
             <Route path={'/project/mortselhelpt'} element={<MortselHelpt title={"Mortsel helpt"}/>}/>
         </Routes>
