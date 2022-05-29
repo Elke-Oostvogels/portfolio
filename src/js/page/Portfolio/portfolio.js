@@ -28,10 +28,10 @@ const Webprojecten = [{id: 1, title: "App Scheldeoord", url: "/project/scheldeoo
 const Stageprojecten = [
     {id: 5, title: "Huizenscanner", url: "/project/huizenscanner", img: Huizenscanner},
     {
-        id: 5, title: "Park zkt. naam", url: "/project/parkzktnaam", img: ParkZktNaam
+        id: 6, title: "Park zkt. naam", url: "/project/parkzktnaam", img: ParkZktNaam
     },
-    {id: 6, title: "Mortsel helpt", url: "/project/mortselhelpt", img: MortstelHelpt}];
-const Graphprojecten = [{id: 7, title: "Historas", url: "/project/historas", img: Historas},
+    {id: 7, title: "Mortsel helpt", url: "/project/mortselhelpt", img: MortstelHelpt}];
+const Graphprojecten = [{id: 8, title: "Historas", url: "/project/historas", img: Historas},
     {
         id: 9,
         title: "Bestickering WSL", url: "/project/wsl", img: WSL

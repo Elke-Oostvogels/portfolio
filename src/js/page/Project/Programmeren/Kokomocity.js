@@ -55,7 +55,7 @@ export const Kokomocity = (props) => {
         }
         ,
         {
-            id: 8,
+            id: 9,
             img: AanmakenFeestje,
         }
 

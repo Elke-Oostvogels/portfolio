@@ -67,7 +67,7 @@ export const Historas = (props) => {
         }
         ,
         {
-            id: 12,
+            id: 11,
             img: PosterJonge,
         }
         ,

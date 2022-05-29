@@ -89,7 +89,7 @@ const hard_skills = [
         rating: 0.75
     },
     {
-        id: 7,
+        id: 10,
         title: 'Adobe Photoshop',
         img: Adobe,
         rating: 0.75
@@ -127,7 +127,7 @@ export const Wie = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     });
-    return <div>
+    return <div className={"wie"}>
         <Header title={"Wie"} bg={"_warm-dark"} color={"base_warm_light"}/>
         <div className={"container container_bg-light"}>
             <div className={"flex flex-row flex-wrap"}>

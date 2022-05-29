@@ -22,7 +22,7 @@ export const Hobby = (props) => {
                 <div className={"basis-full md:basis-2/6"}>
                     <Card size={'_sqr-header'} img={Handen} color={"img_hobby"}/>
                 </div>
-                <div className={"basis-full  md:basis-1/2"}>
+                <div className={"basis-full  md:basis-1/2 md:pl-8"}>
                     <SubTitle title={"Fotografie"} color={"base-warm-dark"} size={"sm"}/>
                     <p>
                         Van kinds af ben ik bezig met fotografie. Alles begon met een oude camera die stuk was, doch

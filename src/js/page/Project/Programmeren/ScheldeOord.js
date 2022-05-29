@@ -4,9 +4,32 @@ import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
 import {Footer} from "../../../componenten/footer/Footer";
 import HeaderImage from "../../../../assets/work/ScheldeOord/logo.jpg";
+import {SwiperProjecten} from "../../../componenten/swiper/swiper";
+import Home from "../../../../assets/work/ScheldeOord/home.jpg";
+import Animatie from "../../../../assets/work/ScheldeOord/animatieprogramma.jpg";
+import Detail from "../../../../assets/work/ScheldeOord/detail.jpg";
+import Safari from "../../../../assets/work/ScheldeOord/safari.jpg";
 
 export const ScheldeOord = (props) => {
 
+    const photo = [
+        {
+            id: 1,
+            img: Home,
+        },
+        {
+            id: 2,
+            img: Animatie,
+        },
+        {
+            id: 3,
+            img: Detail,
+        },
+        {
+            id: 4,
+            img: Safari,
+        }
+    ];
     useEffect(() => {
         window.scrollTo(0, 0);
     });
@@ -31,6 +54,19 @@ export const ScheldeOord = (props) => {
                         deze niet allemaal op een website te vinden zijn, hier wou ik verandering in brengen met mij
                         idee.
                     </p>
+                    <p>
+                        <b> Uitwerking:</b> Angular, Ionic framework, HTML en CSS
+                    </p>
+                    <p>
+                        <b>Jaar:</b> 2021 - 2022
+                    </p>
+                </div>
+            </div>
+
+            <SwiperProjecten info={photo} size={'_lg'}/>
+
+            <div className={"flex flex-row flex-wrap mt-8"}>
+                <div className={"basis-full  md:basis-1/2 p-8"}>
                     <p>
                         Mijn idee omvatte volgende pagina's:
                     </p>
@@ -57,22 +93,29 @@ export const ScheldeOord = (props) => {
                         water op zandbanken.
                         Op deze pagina vind men de prijzen en kan men ee reservatie maken.
                     </p>
+                </div>
+                <div className={"basis-full  md:basis-1/2 p-8"}>
                     <p>
                         <b> Minimum vereisten:</b>
                         <ul>
-                            <li>4 pagina's</li>
-                            <li>2 plugins</li>
-                            <li>1 online service</li>
+                            <li>4 pagina's
+                            </li>
+                            <li>2 plugins
+                                <ul>
+                                    <li>Netwerk plugin</li>
+                                    <li>Notification plugin</li>
+                                </ul>
+                            </li>
+                            <li>1 online service
+                                <ul>
+                                    <li>Firebase, opslaan van reservaties</li>
+                                    <li>Eigen API, voor het animatieprogramma</li>
+                                </ul>
+                            </li>
                             <li>Logo & Splash screen</li>
                             <li>PWA</li>
                             <li>Gebouwd met dynamische gegevens</li>
                         </ul>
-                    </p>
-                    <p>
-                        <b> Uitwerking:</b> Angular, Ionic framework, HTML en CSS
-                    </p>
-                    <p>
-                        <b>Jaar:</b> 2021 - 2022
                     </p>
                 </div>
             </div>

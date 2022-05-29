@@ -4,6 +4,7 @@ import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
 import HeaderImage from "../../../../assets/work/mortsel_helpt.jpg";
 import {Footer} from "../../../componenten/footer/Footer";
+import WebsiteBeeld from "../../../../assets/work/mortselhelpt_website.jpg";
 
 export const MortselHelpt = (props) => {
 
@@ -19,10 +20,15 @@ export const MortselHelpt = (props) => {
                     <Card size={'_sqr-header'} img={HeaderImage}/>
                 </div>
                 <div className={"basis-full  md:basis-1/2"}>
-                    <p>
+                    <p className={'py-2'}>
                         Tijdens mijn stage kreeg ik de opdracht om 2 pagina's te bouwen voor Mortsel helpt.
                         Voor het bouwen van de pagina's kreeg ik de opdracht om te werken met TWIG, zodat er dynamische
                         info getoond kan worden.
+                    </p>
+                    <p className={'py-2'}>
+                        Gemeente Mortsel wou iets doen voor de vluchtelingen uit Oekraïne, niet in de vorm van gewoon
+                        geld doneren maar in de vorm van virtueel pakketten aankopen. Deze pakketten kunnen gaan van een
+                        luierpakket, lakenpakket, koelkast tot een verzorgingspakket voor volwassene.
                     </p>
                     <p>
                         <b> Uitwerking:</b> HTML, TWIG & CSS
@@ -31,6 +37,7 @@ export const MortselHelpt = (props) => {
                         <b>Jaar:</b> 2022
                     </p>
                 </div>
+                <img src={WebsiteBeeld} className={"w-3/5 m-auto"}/>
             </div>
         </div>
         <Footer/>

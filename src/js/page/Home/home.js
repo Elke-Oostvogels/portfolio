@@ -19,7 +19,7 @@ export const Home = (props) => {
                 <div className={"basis-full  md:basis-2/4"}>
                     <SubTitle title={"Wie ben ik?"} color={"base-warm-dark"} size={"sm"}/>
                     <p>
-                        Hoi, ik ben Elke Oostvogels. Ik ben een 22 jarige studente. Momenteel ben ik bezig aan mijn
+                        Hoi, ik ben Elke Oostvogels. Ik ben een 23 jarige studente. Momenteel ben ik bezig aan mijn
                         laatste
                         jaar
                         van het graduaat Programmeren. Na deze studie zou ik graag aan de slag gaan als Front-end
