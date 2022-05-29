@@ -71,12 +71,9 @@ export const Faalangst = (props) => {
                         <b>Brochure Faalangst</b>
                     </p>
                     <p>
-                        Fictieve opdracht: maak een design voor een brochure rond faalangst.
-
-                        Omdat het om een fictief leger ging had ik het idee om er op een grappige manier met de opdracht
-                        om te gaan. Want wat zouden soldaten in de ruimte kunnen doen, in mijn ogen niks. Dus zo is het
-                        idee ontstaan om astronauten aardse dingen in de ruimte te laten doen. Bv fietsen,
-                        schommelen,... Dit heb ik doorgetrokken in de website en huisstijl.
+                        Fictieve opdracht: maak een design voor een brochure rond faalangst.<br/>
+                        Ter illustratie heb ik enkele werken van Bart Hess gebruikt. Deze vond ik zeer goed passen bij
+                        het thema.
                     </p>
                     <p>
                         <b> Formaat:</b> 15cm op 15cm

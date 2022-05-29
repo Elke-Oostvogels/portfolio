@@ -53,9 +53,8 @@ export const Portfolio = () => {
         <div className={"container container_bg-light"}>
             <div className={"portfolio__content"}>
                 <SubTitle title={"Programmeren"} color={"base-cold"}/>
-                <p>Zie hier een selectie van projecten die ik gedurende mijn opleiding Programmeren en stage gemaakt
-                    heb.
-                    Deze projecten verschillen op verschillende opzichten van elkaar, dit qua taal maar ook
+                <p>Hier een selectie van projecten die ik gedurende mijn opleiding graduaata Programmeren en stage gemaakt
+                    heb. Deze projecten verschillend van elkaar, dit qua taal maar ook
                     onderwerp.</p>
 
                 <h4>Schoolprojecten</h4>
@@ -67,10 +66,8 @@ export const Portfolio = () => {
             <div className={"portfolio__content"}>
                 <SubTitle title={"Grafisch ontwerp"} color={"base-cold"}/>
                 <p>
-                    Zie hier een selectie van projecten van mijn opleiding Publiciteit en Webdesign maar ook van
-                    projecten
-                    die
-                    ik prive gemaakt heb.
+                    Hier een selectie van projecten van mijn opleiding Publiciteit en Webdesign maar ook van
+                    projecten die ik privé gemaakt heb.
                 </p>
                 <SwiperInfo info={Graphprojecten} size={'_lg'} stijl={"hover_stijl"}/>
             </div>

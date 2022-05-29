@@ -133,15 +133,14 @@ export const Wie = () => {
                 <div className={"basis-full  md:basis-2/4"}>
                     <SubTitle title={"Wie ben ik?"} color={"base-warm-dark"} size={"sm"}/>
                     <p>
-                        Hoi, ik ben Elke Oostvogels. Ik ben een 22 jarige studente. Momenteel ben ik bezig aan mijn
+                        Hoi, ik ben Elke Oostvogels. Ik ben een 23 jarige studente. Momenteel ben ik bezig aan mijn
                         laatste
                         jaar
                         van het graduaat Programmeren. Na deze studie zou ik graag aan de slag gaan als Front-end
                         developer,
                         dit
-                        omvangt mijn interesses. Namelijk het coderen ik vind het geweldig om een applicatie te zien
-                        ontstaan
-                        maar ook het grafische aspect dat alles ook mooi staat.
+                        omvangt mijn interesses. Ik vind het geweldig om een applicatie te zien
+                        ontstaan via het coderen alsook het grafische aspect om het geheel mooi vorm te geven.
                     </p>
                 </div>
             </div>
@@ -157,8 +156,14 @@ export const Wie = () => {
                 </div>
                 <div className={"basis-48 sm:basis-full md:basis-1/4 wie__info"}>
                     <ul>
-                        <li>+32 493 50 61 24</li>
-                        <li>elkeoostvogels@outlook.com</li>
+                        <li>
+                            <a href="tel:+32 493 50 61 24">+32 493 50 61 24</a>
+                        </li>
+                        <li>
+                            <a href="mailto:elkeoostvogels@outlook.com">
+                                elkeoostvogels@outlook.com
+                            </a>
+                            </li>
                         <li className={"link"}>
                             <a href="https://www.linkedin.com/in/elke-oostvogels-1b79791a4/" target={"_blank"}>
                                 LinkedIn
@@ -192,7 +197,7 @@ export const Wie = () => {
                             <img className={"wie__img wie__img-logos"} src={ThomasMore}/>
                             <div className={"wie__content justify-center"}>
                                 <h4>Programmeren</h4>
-                                <p>Thomas more - Turnhout</p>
+                                <p>Thomas More - Turnhout</p>
                                 <p>2020-2022</p>
                             </div>
                         </div>
@@ -208,7 +213,7 @@ export const Wie = () => {
                             <img className={"wie__img wie__img-logos"} src={HeiligGraf}/>
                             <div className={"wie__content"}>
                                 <h4>Publiciteit</h4>
-                                <p>Heilig graf - Turnhout</p>
+                                <p>Heilig Graf - Turnhout</p>
                                 <p>2015-2019</p>
                             </div>
                         </div>
@@ -221,9 +226,8 @@ export const Wie = () => {
                             <a href="https://viavictor.com/" target={"_blank"}>
                                 <img className={"wie__img wie__img-logos"} src={Viavictor}/>
                             </a>
-
                             <div className={"wie__content justify-center"}>
-                                <h4>ViaVictor</h4>
+                                <h4>Viavictor</h4>
                                 <p>Front-end</p>
                                 <p>4 maanden</p>
                             </div>

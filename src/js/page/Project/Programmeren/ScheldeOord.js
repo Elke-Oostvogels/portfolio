@@ -47,10 +47,10 @@ export const ScheldeOord = (props) => {
                     </p>
                     <p>
                         Voor het vak Mobiele applicaties kregen wij de opdracht om een applicatie te ontwikkelen die
-                        werkt op android toestelen en als PWA.
-                        Het onderwerp mochten we zelf kiezen, voor dit project koos ik ScheldeOord. Dit is een camping
-                        in Zeeland waar ik wel eens naartoe ga.
-                        Uit ervaring wist ik dat de online reservatie systemen niet gebruiksvriendelijk waren en dat
+                        werkt op android toestellen en als PWA.
+                        Het onderwerp mochten we zelf kiezen. Voor dit project koos ik comfort scheldeoord. Dit is een camping
+                        in Zeeland waar ik vaak naartoe ga.
+                        Uit ervaring wist ik dat de online reservatiesystemen niet gebruiksvriendelijk waren en dat
                         deze niet allemaal op een website te vinden zijn, hier wou ik verandering in brengen met mij
                         idee.
                     </p>
@@ -72,26 +72,23 @@ export const ScheldeOord = (props) => {
                     </p>
                     <p>
                         <b>Home pagina:</b> hier kan men terug vinden welke activiteit er bezig is, welke activiteiten
-                        niet te
-                        missen zijn die dag en een overzicht van de reservaties enerzijds voor activiteiten
+                        niet te missen zijn die dag en een overzicht van de reservaties voor activiteiten en
                         anderzijds voor de scheldesafari.</p>
                     <p>
-                        <b>Animatieprogramma:</b> dit is een overzicht van al de activiteiten per dag</p>
+                        <b>Animatieprogramma:</b> dit is een overzicht van al de activiteiten per dag.</p>
                     <p>
                         <b>Detail pagina:</b> hier vind men extra informatie terug over een activiteit. Waar, wanneer,
-                        hoe
-                        laat,
-                        toegangsprijs, type activiteit, leeftijd, beschrijving,.. .
-                        Via deze pagina kan men zeggen van ik wil mij inschrijven als er maar beperkt plaats is voor de
+                        hoe laat, toegangsprijs, type activiteit, leeftijd, beschrijving,...
+                        Via deze pagina kan men zich inschrijven als er maar beperkt plaats is voor de
                         activiteit en kan men er voor kiezen om een herinnering in te stellen voor een activiteit. Deze
                         herinnering geeft een kwartier voor aanvang van de activiteit een melding dat deze activiteit
-                        zak plaats nemen.
+                        gaat beginnen.
                     </p>
                     <p>
                         <b>Scheldeoord safari:</b> dit is een extra activiteit georganiseerd door de camping uitbater.
-                        Men kan via een vaartocht op de Westerschelde opzoek gaan naar zeehonden. Deze liggen bij laag
-                        water op zandbanken.
-                        Op deze pagina vind men de prijzen en kan men ee reservatie maken.
+                        Men kan via een vaartocht op de Westerschelde op zoek gaan naar zeehonden. Deze liggen bij laag
+                        water op de zandbanken.
+                        Op deze pagina vind men de prijzen en kan men een reservatie maken.
                     </p>
                 </div>
                 <div className={"basis-full  md:basis-1/2 md:p-8"}>

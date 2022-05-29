@@ -21,14 +21,14 @@ export const Huizenscanner = (props) => {
                 <div className={"basis-full  md:basis-1/2"}>
                     <p>
                         De Huizenscanner was mijn basis project gedurende mijn stage bij Viavictor.<br/>
-                        Huizenscanner is applicatie voor mensen die willen gaan bouwen of verbouwen die inspiratie op
-                        willen doen. Het idee is gebaseerd op Pinterest maar hier zou er meer informatie verkregen
+                        Huizenscanner is een applicatie voor mensen die willen gaan bouwen of verbouwen en die inspiratie willen opdoen.
+                        Het idee is gebaseerd op Pinterest maar hier zou er meer informatie verkregen
                         kunnen worden. Zoals wie is de architect of welke steen in welke kleur is er gebruikt. Deze
-                        zaken zouden ook opgeslagen kunnen worden bij favorieten zodat alles mooi gebundeld is mochten
+                        zaken zouden ook opgeslagen kunnen worden bij favorieten zodat alles mooi gebundeld is. Mochten
                         ze naar een architect of aannemer willen stappen, dan weten ze direct welke materialen ze zouden
                         willen.
                         Anderzijds is dit ook interessant voor architecten, het kan voor extra reclame zorgen, maar ook
-                        dat mensen hun vlugger vinden en een uitbreiding van een portfolio. Meestal heeft een architect
+                        dat mensen hen vlugger vinden en een uitbreiding van een portfolio. Meestal heeft een architect
                         een portfolio maar deze bevatten niet veel technische informatie, deze zou wel gegeven kunnen
                         worden bij Huizenscanner.
                     </p>

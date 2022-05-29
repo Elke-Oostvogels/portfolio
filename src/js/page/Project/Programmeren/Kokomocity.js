@@ -74,18 +74,17 @@ export const Kokomocity = (props) => {
                 </div>
                 <div className={"basis-full  md:basis-1/2"}>
                     <p>
-                        <b>Webapplicatie Kokomocity</b>
+                        <b>Webapplicatie Kokomo City</b>
                     </p>
                     <p>
                         Voor het vak Webapplicaties hadden we een project waarbij we een webapplicatie moesten ontwerpen
                         en ontwikkelen.
                         Het onderwerp mochten we zelf kiezen. Als voorbeeld kregen we een website voor een festival of
                         een webshop.
-                        Omdat ik persoonlijk graag projecten maak rond een bestaand bedrijf koos ik voor de Kokomocity.
-                        Dit omdat er nog geen website is en alles van reservaties tijdens corona via Instagram gebeurde
-                        daar haalde ik mijn inspiratie uit.
-                        Ook vormde dit een leuke uitdaging voor het ontwerp omdat het gaat voor jongere en feesten en
-                        dat gevoel wou ik wel kunnen overbrengen.
+                        Omdat ik persoonlijk graag projecten maak rond een bestaand bedrijf koos ik voor de Kokomo City.
+                        Dit omdat er nog geen website is en alles van reservaties tijdens corona via Instagram gebeurde.
+                        Ook vormde dit een leuke uitdaging voor het ontwerp omdat het over jongeren en feesten,
+                        dat gevoel wou ik overbrengen.
                     </p>
                     <p>
                         <b> Uitwerking:</b> C#, HTML & CSS

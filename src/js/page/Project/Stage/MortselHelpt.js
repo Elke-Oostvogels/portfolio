@@ -22,13 +22,13 @@ export const MortselHelpt = (props) => {
                 <div className={"basis-full  md:basis-1/2"}>
                     <p className={'py-2'}>
                         Tijdens mijn stage kreeg ik de opdracht om 2 pagina's te bouwen voor Mortsel helpt.
-                        Voor het bouwen van de pagina's kreeg ik de opdracht om te werken met TWIG, zodat er dynamische
+                        Voor dit project kreeg ik de opdracht om te werken met TWIG, zodat er dynamische
                         info getoond kan worden.
                     </p>
                     <p className={'py-2'}>
                         Gemeente Mortsel wou iets doen voor de vluchtelingen uit Oekraïne, niet in de vorm van gewoon
                         geld doneren maar in de vorm van virtueel pakketten aankopen. Deze pakketten kunnen gaan van een
-                        luierpakket, lakenpakket, koelkast tot een verzorgingspakket voor volwassene.
+                        luierpakket, lakenpakket, koelkast tot een verzorgingspakket voor volwassenen.
                     </p>
                     <p>
                         <b> Uitwerking:</b> HTML, TWIG & CSS

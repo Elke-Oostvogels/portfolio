@@ -21,14 +21,14 @@ export const ParkNaam = (props) => {
                 </div>
                 <div className={"basis-full  md:basis-1/2"}>
                     <p className={'py-2'}>
-                        Park zkt. naam is een landingspagina waar mensen kunnen stemmen voor een naam voor het park aan
-                        de gedempte Zuiderdokken.
-                        Deze landingspagina bevat een formulier om te stemmen en een bedanking pagina.
+                        Park zkt. naam is een landingspagina waar mensen kunnen stemmen om een naam voor het park aan
+                        de Gedempte Zuiderdokken te kiezen.
+                        Deze landingspagina bevat een formulier om te stemmen en een bedankingspagina.
                     </p>
                     <p className={'py-2'}>
-                        De gedempte zuiderdokken zijn ze momenteel aan het omvormen van een parking naar een
+                        De Gedempte Zuiderdokken zijn ze momenteel aan het omvormen van een parking naar een
                         ondergrondse parking en bovengronds een groot park. Voor dit park zijn ze nog op zoek naar een
-                        naam. Hiervoor hebben ze een campagne gemaakt en een website pagina waar mensen kunnen stemmen
+                        naam. Hiervoor hebben ze een campagne gemaakt en een web pagina waar mensen kunnen stemmen
                         op 3 opties, om zo tot een naam te komen voor dat park.
                     </p>
                     <p>

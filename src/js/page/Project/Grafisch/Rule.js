@@ -59,6 +59,10 @@ export const Rule = (props) => {
                     </p>
                     <p>
                         Fictieve opdracht: ontwerp een logo en bijpassende huisstijl voor een ruimte leger.
+                        Omdat het om een fictief leger ging had ik het idee om er op een grappige manier met de opdracht
+                        om te gaan. Want wat zouden soldaten in de ruimte kunnen doen, in mijn ogen niks. Dus zo is het
+                        idee ontstaan om astronauten aardse dingen in de ruimte te laten doen. Bv fietsen,
+                        schommelen,... Dit heb ik doorgetrokken in de website en huisstijl.
                     </p>
                     <p>
                         <b> Uitwerking:</b> Illustrator en Indesign

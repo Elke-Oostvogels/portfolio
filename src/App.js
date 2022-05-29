@@ -28,7 +28,7 @@ function App() {
 
             {/*Grafische projecten*/}
             <Route path={'/project/historas'} element={<Historas title={"Historas"}/>}/>
-            <Route path={'/project/wsl'} element={<WSL title={"Bestikering WSL"}/>}/>
+            <Route path={'/project/wsl'} element={<WSL title={"Bestickering WSL"}/>}/>
             <Route path={'/project/rule'} element={<Rule title={"Rule"}/>}/>
             <Route path={'/project/faalangst'} element={<Faalangst title={"Faalangst"}/>}/>
 
