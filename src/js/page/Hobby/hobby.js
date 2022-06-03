@@ -24,7 +24,7 @@ export const Hobby = (props) => {
                 </div>
                 <div className={"basis-full  md:basis-1/2 md:pl-8"}>
                     <SubTitle title={"Fotografie"} color={"base-warm-dark"} size={"sm"}/>
-                    <p>
+                    <p className={"mt-5"}>
                         Van kinds af ben ik bezig met fotografie. Alles begon met een oude camera die stuk was, doch
                         waarmee ik dan speels als kind foto’s maakte. Deze werd na een tijdje vervangen door een oude
                         digitale compact camera met vaste lens die gelukkig nog werkte. De camera ging vaak met mij mee

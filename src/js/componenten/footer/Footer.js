@@ -14,7 +14,7 @@ export const Footer = () => {
                     <img src={At}/>
                 </a>
 
-                <a target={"_blank"}>
+                <a href="https://www.linkedin.com/in/elke-oostvogels-1b79791a4/" target={"_blank"}>
                     <img src={Linkedin}/>
                 </a>
 
@@ -22,7 +22,6 @@ export const Footer = () => {
                     <img src={Instagram}/>
                 </a>
             </div>
-
         </div>
         <div className={"flex justify-center"}>
             &copy; Elke Oostvogels - 2022

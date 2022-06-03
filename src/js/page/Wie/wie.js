@@ -132,7 +132,7 @@ export const Wie = () => {
                 </div>
                 <div className={"basis-full  md:basis-2/4"}>
                     <SubTitle title={"Wie ben ik?"} color={"base-warm-dark"} size={"sm"}/>
-                    <p>
+                    <p className={"mt-5"}>
                         Hoi, ik ben Elke Oostvogels. Ik ben een 23 jarige studente. Momenteel ben ik bezig aan mijn
                         laatste
                         jaar
@@ -170,7 +170,7 @@ export const Wie = () => {
                             </a>
                         </li>
                         <li className={"link"}>
-                            <a href="../../../assets/OostvogelsElke_CV.pdf" download target={"_blank"}>
+                            <a href="%PUBLIC_URL%/OostvogelsElke_CV.pdf" download target={"_blank"}>
                                 CV
                             </a>
                         </li>
