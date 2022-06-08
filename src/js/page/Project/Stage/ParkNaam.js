@@ -3,7 +3,7 @@ import {Card} from "../../../componenten/card/Card";
 import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
 import {Footer} from "../../../componenten/footer/Footer";
-import WebsiteBeeld from "../../../../assets/work/parkzktnaam_website.png";
+import WebsiteBeeld from "../../../../assets/work/parkzktnaam_website.jpg";
 import Logo from "../../../../assets/work/Park/text.jpg";
 
 export const ParkNaam = (props) => {
@@ -39,7 +39,7 @@ export const ParkNaam = (props) => {
                     </p>
                     <a href={"https://www.parkzktnaam.be/"} target={"_blank"} className={"btn"}>Bekijk de website</a>
                 </div>
-                <img src={WebsiteBeeld} className={"w-4/5 m-auto"}/>
+                <img src={WebsiteBeeld} className={"w-1/2 m-auto"}/>
             </div>
 
         </div>

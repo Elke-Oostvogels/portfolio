@@ -41,7 +41,7 @@ export const Home = (props) => {
         </div>
         <div className={"container container_bg-light"}>
             <SubTitle title={"Bekijk zeker"} color={"base-warm-dark"} size={"sm"}/>
-            <div className={"flex flex-col lg:flex-row"}>
+            <div className={"flex flex-col xl:flex-row"}>
                 <Card size={'_sqr'} stijl={"hover_stijl"} img={Portfolio} title={"Portfolio"} url={"/portfolio"}/>
                 <Card size={'_sqr'} stijl={"hover_stijl"} img={Sfeer} title={"Hobby"} url={"/hobby"}/>
                 <Card size={'_sqr'} stijl={"hover_stijl"} img={Wie} title={"Wie ben ik?"} url={"/wie"}/>

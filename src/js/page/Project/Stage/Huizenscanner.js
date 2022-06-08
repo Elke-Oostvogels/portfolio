@@ -4,8 +4,61 @@ import React from "../../../../assets/logos/react.png";
 import {useEffect} from "react";
 import {Footer} from "../../../componenten/footer/Footer";
 import Logo from '../../../../../src/assets/logos/huizenscanner.jpg';
+import {SwiperProjecten} from "../../../componenten/swiper/swiper";
+import Landingspage from "../../../../assets/work/huizenscanner/landingspagina.jpg";
+import Fotolijst from "../../../../assets/work/huizenscanner/fotolijst.jpg";
+import Lijst from "../../../../assets/work/huizenscanner/lijst.jpg";
+import Kaart from "../../../../assets/work/huizenscanner/kaart.jpg";
+import Profiel from "../../../../assets/work/huizenscanner/profiel.jpg";
+import Detailovericht from "../../../../assets/work/huizenscanner/detailoverzicht.jpg";
+import Detailaannemer from "../../../../assets/work/huizenscanner/detailaannemre.jpg";
+import Detailarchitect from "../../../../assets/work/huizenscanner/detailconractor.jpg";
+import Inloggen from "../../../../assets/work/huizenscanner/inloggen.jpg";
 
 export const Huizenscanner = (props) => {
+
+    const photo = [
+        {
+            id: 1,
+            img: Landingspage,
+        },
+        {
+            id: 2,
+            img: Inloggen,
+        },
+        {
+            id: 3,
+            img: Fotolijst,
+        },
+        {
+            id: 4,
+            img: Lijst,
+        },
+        {
+            id: 5,
+            img: Kaart,
+        },
+        {
+            id: 6,
+            img: Detailovericht,
+        }
+        ,
+        {
+            id: 7,
+            img: Detailaannemer,
+        }
+        ,
+        {
+            id: 8,
+            img: Detailarchitect,
+        }
+        ,
+        {
+            id: 9,
+            img: Profiel,
+        }
+
+    ];
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -40,6 +93,7 @@ export const Huizenscanner = (props) => {
                     </p>
                 </div>
             </div>
+            <SwiperProjecten info={photo} size={'_lg'}/>
         </div>
         <Footer/>
     </div>

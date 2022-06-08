@@ -14,11 +14,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    //margin: 15px;
-    //@media screen and (max-width: $breakpoint--sm) {
-    //  margin: 10px auto;
-    //}
-
 
     &_lg {
       width: 260px;
@@ -139,45 +134,61 @@
     position: relative;
   }
 
-
-  &_hover_stijl:hover {
-    .hover_color_lg {
-      z-index: 6;
-      opacity: 0.75;
-      position: absolute;
-      width: 350px;
-      height: 300px;
-      background-color: $base-cold;
-      border-radius: 15px;
-    }
-
-    .hover_color_sqr {
-      z-index: 6;
-      opacity: 0.75;
-      position: absolute;
-      width: 450px;
-      height: 450px;
-      background-color: $base-cold;
-      border-radius: 15px;
-    }
-
-    .hover_text {
-      z-index: 8;
-      position: absolute;
-      opacity: 1;
-
-      &_lg {
-        top: 90%;
-        left: 10%;
+  @media (min-width: $breakpoint--sm) {
+    &_hover_stijl:hover {
+      .hover_color_lg {
+        z-index: 6;
+        opacity: 0.75;
+        position: absolute;
+        width: 350px;
+        height: 300px;
+        background-color: $base-cold;
+        border-radius: 15px;
       }
 
-      &_sqr {
-        top: 80%;
+      .hover_color_sqr {
+        z-index: 6;
+        opacity: 0.75;
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        background-color: $base-cold;
+        border-radius: 15px;
       }
 
-      h3 {
-        text-align: center;
-        width: 300px;
+      .hover_text {
+        z-index: 8;
+        position: absolute;
+        opacity: 1;
+
+        &_lg {
+          top: 90%;
+          left: 10%;
+        }
+
+        &_sqr {
+          top: 80%;
+        }
+
+        h3 {
+          text-align: center;
+          width: 300px;
+        }
+
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint--md) {
+    &_hover_stijl {
+      .hover_color_sqr {
+        z-index: 6;
+        opacity: 0.75;
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        background-color: $base-cold-dark;
+        border-radius: 15px;
       }
     }
   }
@@ -185,6 +196,13 @@
   .hover_text {
     position: absolute;
     opacity: 0;
+    @media (max-width: $breakpoint--md) {
+      z-index: 8;
+      opacity: 1;
+      &_sqr {
+        top: 80%;
+      }
+    }
   }
 
   .img_hobby {
@@ -193,3 +211,5 @@
     height: auto;
   }
 }
+
+

@@ -170,7 +170,7 @@ export const Wie = () => {
                             </a>
                         </li>
                         <li className={"link"}>
-                            <a href="%PUBLIC_URL%/OostvogelsElke_CV.pdf" download target={"_blank"}>
+                            <a href="/static/media/OostvogelsElke_CV.pdf" download target={"_blank"}>
                                 CV
                             </a>
                         </li>

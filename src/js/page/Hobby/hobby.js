@@ -8,7 +8,7 @@ import './hobby.scss';
 import Handen from '../../../../src/assets/work/handen.jpg';
 import Ster from '../../../../src/assets/work/ster.jpg';
 import Sfeer from '../../../../src/assets/work/sfeer.jpg';
-import Personen from '../../../../src/assets/work/italie.JPG';
+import Personen from '../../../../src/assets/work/italie.jpg';
 import {useEffect} from "react";
 
 export const Hobby = (props) => {
