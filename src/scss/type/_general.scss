@@ -43,3 +43,18 @@ p {
   line-height: 24px;
   color: $dark;
 }
+
+.typo {
+  &__home {
+    @include font-bold;
+    font-size: 45px;
+    letter-spacing: 5px;
+
+    &-red{
+      color: #27625a;
+    }
+    &-blue{
+      color: $base-cold-dark;
+    }
+  }
+}

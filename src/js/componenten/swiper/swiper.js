@@ -54,7 +54,7 @@ export const SwiperProjecten = (props) => {
             centeredSlides={true}
             navigation={true}
             direction={"horizontal"}
-            slidesPerView={1}
+            slidesPerView={"auto"}
             pagination={{
                 clickable: true,
             }}

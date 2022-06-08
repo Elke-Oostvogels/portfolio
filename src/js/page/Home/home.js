@@ -19,23 +19,27 @@ export const Home = (props) => {
                     <Card size={'_sqr-header'} class={"cover"} img={Blaasbloem}/>
                 </div>
                 <div className={"basis-full  md:basis-2/4"}>
-                    <SubTitle title={"Hoi en welkom"} color={"base-warm-dark"} size={"sm"}/>
-                    <p className={"mt-5"}>
-                        Mijn naam is Elke Oostvogels, een 23 jarige studente programmeren. Als u deze website bekijkt
-                        ben ik net klaar met mijn afstudeerstage.
-                    </p>
-                    <p>
-                        Op deze website vind je een paar projecten
-                        terug deze van programmeren tot grafisch werk.
-                    </p>
+                    {/*<SubTitle title={"Hoi en welkom"} color={"base-warm-dark"} size={"sm"}/>*/}
+                    {/*<p className={"mt-5"}>*/}
+                    {/*    Mijn naam is Elke Oostvogels, een 23 jarige studente programmeren. Als u deze website bekijkt*/}
+                    {/*    ben ik net klaar met mijn afstudeerstage.*/}
+                    {/*</p>*/}
+                    {/*<p>*/}
+                    {/*    Op deze website vind je een paar projecten*/}
+                    {/*    terug van programmeren tot grafisch werk.*/}
+                    {/*</p>*/}
+                    <div><span className={"py-2 typo__home-red typo__home"}>E</span><span className={"py-2 typo__home typo__home-blue"}>fficiënt</span></div>
+                    <div><span className={"py-2 typo__home-red typo__home"}>L</span><span className={"py-2 typo__home typo__home-blue"}>evendig</span></div>
+                    <div><span className={"py-2 typo__home-red typo__home"}>K</span><span className={"py-2 typo__home typo__home-blue"}>unstzinnig</span></div>
+                    <div><span className={"py-2 typo__home-red typo__home"}>E</span><span className={"py-2 typo__home typo__home-blue"}>igentijds</span></div>
                 </div>
             </div>
         </div>
         <div className={"container container_bg-warm-light"}>
             <div className={"flex md:justify-center flex-row flex-wrap"}>
                 <q className={"hobby__quote"}>Van jongs af aan ben ik al graag creatief bezig. Van knutselen en tekenen
-                    tot fotografie. Toen ik de grafische wereld leerde kennen wist ik dat het iets voor mij was.
-                    De grafische wereld wil ik dan ook graag combineren met de online wereld. Daarom de keuze om
+                    tot fotografie.<br/> Toen ik de grafische wereld leerde kennen wist ik dat het iets voor mij was.
+                    De grafische wereld wil ik dan ook graag combineren met de online wereld. <br/>Daarom de keuze om
                     programmeren te studeren.</q>
             </div>
         </div>

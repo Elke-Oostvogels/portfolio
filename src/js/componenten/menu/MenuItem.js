@@ -3,9 +3,15 @@ import './menu.scss';
 
 export const MenuItem = (props) => {
 
+    console.log(props);
+
     const location = useLocation();
     let active = '';
+    console.log(location.pathname.length);
 
+    if (props.url.length === 1 && location.pathname.length === 1) {
+        active = "menu_active";
+    }
     if (location.pathname.startsWith(props.url) && props.url !== '/') {
         active = "menu_active";
     }
